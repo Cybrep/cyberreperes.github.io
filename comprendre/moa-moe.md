@@ -79,6 +79,7 @@ La MOE traduit le besoin de la MOA en **solutions techniques réalisables**.
 ## MOA et MOE en une phrase
 
 > **La MOA exprime le besoin et porte le projet.**
+
 > **La MOE conçoit la solution et organise sa réalisation.**
 
 Cette formulation est volontairement simplifiée. Dans les projets réels, les responsabilités peuvent être réparties différemment selon les contrats, les organisations et les missions confiées aux différents acteurs.
