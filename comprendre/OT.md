@@ -51,7 +51,6 @@ Cette distinction n'est cependant pas absolue. Les environnements modernes font 
 ## Un exemple simple
 
 Prenons une installation industrielle qui chauffe un liquide à une température précise.
-
 Dans l'environnement OT :
 - un capteur mesure la température
 - un automate reçoit cette information
@@ -59,8 +58,7 @@ Dans l'environnement OT :
 - une commande agit sur une vanne ou un dispositif de chauffage
 - un système de supervision permet à un opérateur de suivre le procédé
 
-L'OT constitue ainsi une chaîne permettant de passer : 
-**du monde physique → à la mesure → à la décision → à l'action.**
+L'OT constitue ainsi une chaîne permettant de passer : **du monde physique → à la mesure → à la décision → à l'action.**
 
 Une défaillance ou une attaque informatique peut alors avoir des conséquences qui dépassent largement la perte ou la divulgation de données.
 
@@ -69,7 +67,6 @@ Une défaillance ou une attaque informatique peut alors avoir des conséquences 
 ## Que trouve-t-on dans un environnement OT ?
 
 Le terme OT recouvre de nombreuses technologies. Dans l'industrie, on retrouve notamment :
-
 - **API** : automates programmables industriels
 - **SCADA** : systèmes de supervision et de contrôle
 - **DCS** : systèmes de contrôle-commande distribués
@@ -80,16 +77,12 @@ Le terme OT recouvre de nombreuses technologies. Dans l'industrie, on retrouve n
 - **systèmes instrumentés de sécurité**
 - **postes d'ingénierie et de maintenance**
 
-L'ensemble de ces composants peut constituer un **ICS** (*Industrial Control System*) ou, selon le contexte, un **IACS** (*Industrial Automation and Control System*).
-
-Ces termes ne sont pas strictement interchangeables. **OT est un terme large. ICS et IACS désignent plus spécifiquement des ensembles de systèmes de contrôle et d'automatisation industriels.**
+L'ensemble de ces composants peut constituer un **ICS** (*Industrial Control System*) ou, selon le contexte, un **IACS** (*Industrial Automation and Control System*). Ces termes ne sont pas strictement interchangeables. **OT est un terme large. ICS et IACS désignent plus spécifiquement des ensembles de systèmes de contrôle et d'automatisation industriels.**
 ---
 
 ## OT ne signifie pas uniquement « industrie »
 
-Le terme OT est souvent associé à l'industrie, mais certaines problématiques rencontrées dans les environnements industriels existent également dans d'autres secteurs.
-
-On peut notamment rencontrer des systèmes cyber-physiques dans :
+Le terme OT est souvent associé à l'industrie, mais certaines problématiques rencontrées dans les environnements industriels existent également dans d'autres secteurs. On peut notamment rencontrer des systèmes cyber-physiques dans :
 - l'énergie
 - les transports
 - l'eau et l'assainissement
@@ -130,31 +123,23 @@ Il peut cependant présenter plusieurs caractéristiques comparables à celles r
 - environnement technique hétérogène
 - conséquences physiques possibles d'une défaillance.
 
-La comparaison ne signifie pas qu'un équipement biomédical et un système industriel sont équivalents.
-
-Elle permet plutôt d'identifier des **problématiques cyber-physiques communes**.
+La comparaison ne signifie pas qu'un équipement biomédical et un système industriel sont équivalents. Elle permet plutôt d'identifier des **problématiques cyber-physiques communes**.
 
 ### Un exemple parlant
 
 On entend parfois :
 
 > « Dans le médical, on ne peut pas arrêter un respirateur comme ça. »
-La même logique existe dans de nombreux environnements industriels : **On ne peut pas non plus arrêter n'importe comment un système de refroidissement, un procédé chimique, une installation électrique ou un système de contrôle-commande critique.**
-
-Les conséquences et les mécanismes de sûreté ne sont évidemment pas les mêmes.
+La même logique existe dans de nombreux environnements industriels : **On ne peut pas non plus arrêter n'importe comment un système de refroidissement, un procédé chimique, une installation électrique ou un système de contrôle-commande critique.** Les conséquences et les mécanismes de sûreté ne sont évidemment pas les mêmes.
 
 Mais la question de fond peut être commune :
-**Quelles sont les conséquences d'une indisponibilité ou d'une modification non maîtrisée d'un système numérique qui participe au fonctionnement d'un environnement physique ?**
-
-Cette approche permet de faire circuler les bonnes pratiques entre secteurs plutôt que de cloisonner artificiellement les connaissances.
+**Quelles sont les conséquences d'une indisponibilité ou d'une modification non maîtrisée d'un système numérique qui participe au fonctionnement d'un environnement physique ?** Cette approche permet de faire circuler les bonnes pratiques entre secteurs plutôt que de cloisonner artificiellement les connaissances.
 
 ---
 
 ## Des contraintes différentes, mais des questions parfois communes
 
-Un hôpital, une centrale de production d'énergie, une usine et un réseau d'eau ne fonctionnent évidemment pas de la même manière.
-
-Pour autant, leurs équipes peuvent être confrontées à des questions similaires :
+Un hôpital, une centrale de production d'énergie, une usine et un réseau d'eau ne fonctionnent évidemment pas de la même manière. Pour autant, leurs équipes peuvent être confrontées à des questions similaires :
 
 | Question | Problématique |
 |---|---|
@@ -175,24 +160,17 @@ C'est cette proximité des problématiques qui rend intéressantes les comparais
 ## Pourquoi l'OT est-il particulier ?
 
 ### Disponibilité
-L'arrêt d'un système OT peut provoquer l'arrêt d'une production, l'indisponibilité d'un service ou la dégradation d'un procédé.
-
-Une opération de cybersécurité qui serait anodine en IT peut donc être risquée en OT.
+L'arrêt d'un système OT peut provoquer l'arrêt d'une production, l'indisponibilité d'un service ou la dégradation d'un procédé. Une opération de cybersécurité qui serait anodine en IT peut donc être risquée en OT.
 
 ### Intégrité
 Une information erronée peut conduire un système à prendre une mauvaise décision ou à commander incorrectement un équipement. L'intégrité des mesures, des programmes et des commandes est donc essentielle.
 
 ### Sûreté
-Dans certains environnements, un dysfonctionnement peut avoir des conséquences sur la sécurité des personnes ou sur l'environnement.
-
-La cybersécurité peut alors contribuer à la **sûreté de fonctionnement**,
-sans pour autant se confondre avec elle.
+Dans certains environnements, un dysfonctionnement peut avoir des conséquences sur la sécurité des personnes ou sur l'environnement. La cybersécurité peut alors contribuer à la **sûreté de fonctionnement**, sans pour autant se confondre avec elle.
 
 ### Durée de vie
 
-Les équipements opérationnels peuvent rester en service pendant plusieurs décennies.
-
-Il n'est donc pas rare de rencontrer des systèmes anciens, des logiciels qui ne sont plus supportés ou des équipements difficiles à remplacer.
+Les équipements opérationnels peuvent rester en service pendant plusieurs décennies. Il n'est donc pas rare de rencontrer des systèmes anciens, des logiciels qui ne sont plus supportés ou des équipements difficiles à remplacer.
 
 ### Maintenance
 Les opérations de maintenance peuvent être réalisées dans des conditions particulières et avec des fenêtres d'intervention limitées.
@@ -208,8 +186,7 @@ Un système opérationnel fait fréquemment intervenir de nombreux acteurs :
 - fournisseur de logiciel
 - sous-traitants
 
-La cybersécurité doit donc également prendre en compte la chaîne
-d'approvisionnement.
+La cybersécurité doit donc également prendre en compte la chaîne d'approvisionnement.
 
 ---
 
@@ -294,11 +271,7 @@ Ainsi, deux systèmes utilisant une technologie similaire peuvent avoir des nive
 
 ## Une approche transversale
 
-CyberRepères utilise ici le terme **OT** comme une porte d'entrée vers les problématiques de cybersécurité des systèmes opérationnels et cyber-physiques.
-
-Cette approche ne cherche pas à effacer les différences entre les secteurs.
-
-Elle vise au contraire à identifier ce qui peut être partagé :
+CyberRepères utilise ici le terme **OT** comme une porte d'entrée vers les problématiques de cybersécurité des systèmes opérationnels et cyber-physiques. Cette approche ne cherche pas à effacer les différences entre les secteurs. Elle vise au contraire à identifier ce qui peut être partagé :
 
 - méthodes
 - bonnes pratiques
@@ -350,9 +323,7 @@ Parmi eux :
 - **NIST**, avec différentes publications relatives aux systèmes de contrôle industriels et aux systèmes cyber-physiques
 - d'autres organismes spécialisés selon les secteurs concernés
 
-Les documents n'ont pas tous le même statut ni le même objectif.
-
-Il est donc important de distinguer les normes, réglementations, guides, méthodes et publications de retour d'expérience.
+Les documents n'ont pas tous le même statut ni le même objectif. Il est donc important de distinguer les normes, réglementations, guides, méthodes et publications de retour d'expérience.
 
 ---
 
