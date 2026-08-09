@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Accueil"
+description: "Des références pour comprendre, des repères pour agir."
+---
+
 # CyberRepères
 
 ## Comprendre. Structurer. Sécuriser.

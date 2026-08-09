@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "MOA et MOE : comprendre les rôles dans un projet"
 description: "Comprendre les notions de maîtrise d'ouvrage et de maîtrise d'œuvre à travers l'exemple de la construction d'une maison."
 category: "comprendre"
