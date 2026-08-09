@@ -54,6 +54,26 @@
       text-decoration: underline;
     }
 
+    .breadcrumb {
+      margin: 0 0 25px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .breadcrumb a {
+      margin-right: 6px;
+      color: #666;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    .breadcrumb span {
+      margin-right: 6px;
+    }
+
     main {
       margin-bottom: 50px;
     }
@@ -133,6 +153,47 @@
   {% endfor %}
 </nav>
 </header>
+
+{% unless page.url == "/" %}
+<nav class="breadcrumb" aria-label="Fil d’Ariane">
+  <a href="{{ '/' | relative_url }}">Accueil</a>
+
+  {% assign parts = page.url | split: '/' %}
+  {% assign section = parts[1] %}
+
+  {% if section == "comprendre" %}
+    <span>›</span>
+    <a href="{{ '/comprendre/' | relative_url }}">Comprendre</a>
+  {% elsif section == "referentiels" %}
+    <span>›</span>
+    <a href="{{ '/referentiels/' | relative_url }}">Référentiels</a>
+  {% endif %}
+
+  {% if page.type %}
+    {% if page.type == "norme" %}
+      <span>›</span>
+      <span>Normes et standards</span>
+    {% elsif page.type == "reglementation" %}
+      <span>›</span>
+      <span>Réglementation</span>
+    {% elsif page.type == "guide" %}
+      <span>›</span>
+      <span>Guides et bonnes pratiques</span>
+    {% elsif page.type == "methode" %}
+      <span>›</span>
+      <span>Méthodes et référentiels méthodologiques</span>
+    {% elsif page.type == "publication" %}
+      <span>›</span>
+      <span>Autres publications de référence</span>
+    {% endif %}
+  {% endif %}
+
+  {% unless page.url == "/comprendre/" or page.url == "/referentiels/" %}
+    <span>›</span>
+    <span>{{ page.title }}</span>
+  {% endunless %}
+</nav>
+{% endunless %}
 
 <main>
   {{ content }}
