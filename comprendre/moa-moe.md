@@ -26,13 +26,8 @@ Pour comprendre simplement ces notions, imaginons un projet que tout le monde co
 
 ## Construire une maison
 
-Imaginez une personne très occupée par son travail.
-
-Elle souhaite faire construire sa maison, mais elle n'a ni le temps ni toutes les compétences techniques nécessaires pour concevoir le projet, consulter les entreprises et suivre sa réalisation.
-
-Elle sait cependant ce qu'elle veut obtenir : Une maison adaptée à sa famille, à son terrain, à son budget et à ses besoins.
-Cette personne est à l'origine du projet et porte le besoin.
-Elle est la **Maîtrise d'Ouvrage : la MOA**.
+Imaginez une personne très occupée par son travail. Elle souhaite faire construire sa maison, mais elle n'a ni le temps ni toutes les compétences techniques nécessaires pour concevoir le projet, consulter les entreprises et suivre sa réalisation. Le futur propriétaire sait ce qu'il veut obtenir : Une maison adaptée à sa famille, à son terrain, à son budget et à ses besoins. Pour cette tache de représentation, de suivi il fait appel a un chef de chantier, un gars expérimenté qui à l'habitude.
+Ce chef de chantier expérimenté c'est la **Maîtrise d'Ouvrage : la MOA**. Il prend les décisions, et représente le futur propriétaire, (ou l'exploitant dans le cadre d'un projet industriel.
 
 ---
 
@@ -41,18 +36,16 @@ Elle est la **Maîtrise d'Ouvrage : la MOA**.
 La MOA porte le besoin et définit les objectifs du projet.
 Dans notre exemple, le futur propriétaire va notamment définir :
 
-- la localisation de la maison ;
-- sa surface ;
-- le nombre de pièces ;
-- son niveau de confort ;
-- ses contraintes ;
-- son budget ;
-- ses attentes ;
+- la localisation de la maison
+- sa surface
+- le nombre de pièces
+- son niveau de confort
+- ses contraintes
+- son budget
+- ses attentes
 - ses délais.
 
-Il ne va pas nécessairement réaliser lui-même les plans, les calculs de
-structure ou les études électriques.
-
+Il ne va pas nécessairement réaliser lui-même les plans, les calculs de structure ou les études électriques.
 Son rôle est avant tout de **définir ce qu'il veut obtenir**.
 
 ---
@@ -64,40 +57,36 @@ Ensemble, ils vont préciser le projet.
 
 L'architecte peut notamment :
 
-- écouter les besoins du propriétaire ;
-- proposer des solutions ;
-- réaliser ou coordonner la conception architecturale ;
-- produire les plans ;
-- prendre en compte les contraintes réglementaires ;
-- aider le propriétaire à faire des choix.
+- écouter les besoins du propriétaire
+- proposer des solutions
+- réaliser ou coordonner la conception architecturale
+- produire les plans
+- prendre en compte les contraintes réglementaires
+- aider le propriétaire à faire des choix
 
 Le propriétaire reste le **maître d'ouvrage** : c'est son projet et il prend les décisions qui relèvent de la maîtrise d'ouvrage.
-
 Selon la mission qui lui est confiée et l'organisation du projet, l'architecte peut également exercer des missions de maîtrise d'œuvre.
-
 > **MOA et architecte ne sont donc pas synonymes.**
 
 ---
-
 ## La MOE : « Je sais comment le réaliser »
 
 Imaginons maintenant qu'une entreprise de construction soit chargée de réaliser la maison.
 
 Cette entreprise va devoir :
-- étudier le projet ;
-- réaliser les études techniques ;
-- dimensionner les ouvrages ;
-- calculer les structures en béton ;
-- définir les besoins en ferraillage ;
-- concevoir les installations électriques ;
-- définir les installations de plomberie ;
-- préparer les documents techniques ;
-- consulter les entreprises spécialisées ;
-- coordonner les travaux ;
-- vérifier la conformité de la réalisation.
+- étudier le projet
+- réaliser les études techniques
+- dimensionner les ouvrages
+- calculer les structures en béton
+- définir les besoins en ferraillage
+- concevoir les installations électriques
+- définir les installations de plomberie
+- préparer les documents techniques
+- consulter les entreprises spécialisées
+- coordonner les travaux
+- vérifier la conformité de la réalisation
 
 Nous sommes alors dans le domaine de la **Maîtrise d'Œuvre : la MOE**.
-
 La MOE traduit le besoin de la MOA en **solutions techniques réalisables**.
 
 ---
@@ -105,7 +94,6 @@ La MOE traduit le besoin de la MOA en **solutions techniques réalisables**.
 ## MOA et MOE en une phrase
 
 > **La MOA exprime le besoin et porte le projet.**
->
 > **La MOE conçoit la solution et organise sa réalisation.**
 
 Cette formulation est volontairement simplifiée. Dans les projets réels, les responsabilités peuvent être réparties différemment selon les contrats, les organisations et les missions confiées aux différents acteurs.
@@ -117,12 +105,12 @@ Cette formulation est volontairement simplifiée. Dans les projets réels, les r
 Notre entreprise de construction ne va pas nécessairement réaliser elle-même tous les travaux.
 Elle peut préparer des cahiers des charges et consulter des entreprises spécialisées :
 
-- un terrassier ;
-- un maçon ;
-- un électricien ;
-- un plombier ;
-- un chauffagiste ;
-- un spécialiste de la ventilation ;
+- un terrassier
+- un maçon
+- un électricien
+- un plombier
+- un chauffagiste
+- un spécialiste de la ventilation
 - etc.
 
 Ces entreprises peuvent alors intervenir comme **sous-traitants**.
@@ -166,7 +154,6 @@ Cette organisation permet notamment d'éviter certaines chaînes de sous-traitan
 ## Pourquoi cette distinction est-elle importante en cybersécurité industrielle ?
 
 Dans un projet industriel, le nombre d'acteurs peut rapidement devenir important.
-
 On peut retrouver :
 
 ```text
@@ -191,16 +178,12 @@ Chaque niveau supplémentaire peut introduire :
 - de nouvelles responsabilités ;
 - de nouveaux risques ;
 - de nouvelles dépendances.
-
-La maîtrise de la chaîne de sous-traitance devient donc un **enjeu de
-cybersécurité**.
+La maîtrise de la chaîne de sous-traitance devient donc un **enjeu de cybersécurité**.
 
 ---
 
 ## Le lien avec le cycle en V
-
 Dans les projets industriels, les responsabilités des différents acteurs peuvent être représentées au travers du **cycle en V**.
-
 Le cycle en V permet notamment de représenter la progression d'un projet :
 
 ```text
@@ -235,9 +218,7 @@ Le **CLUSIF**, dans son *Guide de la cybersécurité des systèmes industriels*,
 ## Pourquoi la cybersécurité doit suivre le projet
 
 La cybersécurité ne peut pas être ajoutée uniquement à la fin d'un projet.
-
 Une expression de besoin comme : « Je veux un système industriel disponible et sécurisé. »
-
 doit progressivement être traduite en :
 
 ```text
