@@ -28,7 +28,7 @@ Pour comprendre simplement ces notions, imaginons un projet que tout le monde co
 
 Imaginez une personne très occupée par son travail. Elle souhaite faire construire sa maison, mais elle n'a ni le temps ni toutes les compétences techniques nécessaires pour concevoir le projet, consulter les entreprises et suivre sa réalisation. Le futur propriétaire sait ce qu'il veut obtenir : Une maison adaptée à sa famille, à son terrain, à son budget et à ses besoins. Pour cette tache de représentation, de suivi il fait appel a un chef de chantier, un gars expérimenté qui à l'habitude.
 Ce chef de chantier expérimenté c'est la **Maîtrise d'Ouvrage : la MOA**. Il prend les décisions, et représente le futur propriétaire, (ou l'exploitant dans le cadre d'un projet industriel.
-
+Note : le chef de chantier vendu une prestation d'AMOA pour Assistance à la Maitrse d'Ouvrage
 ---
 
 ## La MOA : « Je sais ce que je veux »
@@ -50,31 +50,19 @@ Son rôle est avant tout de **définir ce qu'il veut obtenir**.
 
 ---
 
-## L'architecte
+## Le Constructeur c'est la MOE
 
-Notre futur propriétaire fait appel à un architecte.
-Ensemble, ils vont préciser le projet.
-
-L'architecte peut notamment :
-
-- écouter les besoins du propriétaire
+Notre chef de chantier MOA fait appel à un constructeur. Ensemble, ils vont préciser le projet.
+Avant la réalisation, le constructeur peut notamment :
+- écouter les besoins de la MOA
 - proposer des solutions
-- réaliser ou coordonner la conception architecturale
+- réaliser ou coordonner
 - produire les plans
 - prendre en compte les contraintes réglementaires
-- aider le propriétaire à faire des choix
+- aider la MOA à faire ses choix
+Le chef de chantier reste le **maître d'ouvrage** : c'est son affaire, il prend les décisions (pour le compte du futur propriétaire) cela relèvent de la maîtrise d'ouvrage.
 
-Le propriétaire reste le **maître d'ouvrage** : c'est son projet et il prend les décisions qui relèvent de la maîtrise d'ouvrage.
-Selon la mission qui lui est confiée et l'organisation du projet, l'architecte peut également exercer des missions de maîtrise d'œuvre.
-> **MOA et architecte ne sont donc pas synonymes.**
-
----
-## La MOE : « Je sais comment le réaliser »
-
-Imaginons maintenant qu'une entreprise de construction soit chargée de réaliser la maison.
-
-Cette entreprise va devoir :
-- étudier le projet
+Aprés validation, la **MOE sais comment le réaliser**. C'est justement le domaine de la **Maîtrise d'Œuvre : la MOE** se met alors en ordre de marche pour :
 - réaliser les études techniques
 - dimensionner les ouvrages
 - calculer les structures en béton
@@ -86,11 +74,8 @@ Cette entreprise va devoir :
 - coordonner les travaux
 - vérifier la conformité de la réalisation
 
-Nous sommes alors dans le domaine de la **Maîtrise d'Œuvre : la MOE**.
 La MOE traduit le besoin de la MOA en **solutions techniques réalisables**.
-
 ---
-
 ## MOA et MOE en une phrase
 
 > **La MOA exprime le besoin et porte le projet.**
@@ -104,7 +89,6 @@ Cette formulation est volontairement simplifiée. Dans les projets réels, les r
 
 Notre entreprise de construction ne va pas nécessairement réaliser elle-même tous les travaux.
 Elle peut préparer des cahiers des charges et consulter des entreprises spécialisées :
-
 - un terrassier
 - un maçon
 - un électricien
