@@ -2,6 +2,8 @@
 layout: default
 title: "Comprendre"
 description: "Notions, acteurs et concepts pour comprendre la cybersécurité et les projets industriels."
+nav: true
+nav_order: 10
 ---
 
 # Comprendre
@@ -12,12 +14,19 @@ L'objectif n'est pas de constituer un cours complet de cybersécurité, mais de 
 ---
 
 ## Notions et acteurs
-### MOA et MOE
 
-Comprendre les rôles de la **Maîtrise d'Ouvrage (MOA)** et de la **Maîtrise d'Œuvre (MOE)** à travers l'exemple concret de la construction d'une maison.
-[Lire : MOA et MOE →](moa-moe.md)
+{% assign pages_comprendre = site.pages
+  | where_exp: "page", "page.path contains 'comprendre/'"
+  | sort: "title" %}
 
----
+{% for page in pages_comprendre %}
+  {% unless page.path == "comprendre/index.md" %}
+### [{{ page.title }} →]({{ page.url | relative_url }})
+
+{{ page.description }}
+
+  {% endunless %}
+{% endfor %}
 
 ## À venir
 

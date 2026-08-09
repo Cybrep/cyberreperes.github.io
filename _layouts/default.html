@@ -110,14 +110,28 @@
     {{ site.description }}
   </div>
 
-  <nav>
+<!--  <nav>
     <a href="{{ '/' | relative_url }}">Accueil</a>
     <a href="{{ '/comprendre/' | relative_url }}">Comprendre</a>
     <a href="{{ '/referentiels/' | relative_url }}">Référentiels</a>
     <a href="{{ '/methodes/' | relative_url }}">Méthodes</a>
     <a href="{{ '/livrables/' | relative_url }}">Livrables</a>
-    <a href="{{ '/correspondances/' | relative_url }}">Correspondances</a>
-  </nav>
+    <a href="{{ '/correspondances/' | relative_url }}">Correspondances</a> 
+  </nav>-->
+  
+  <nav>
+  <a href="{{ '/' | relative_url }}">Accueil</a>
+
+  {% assign nav_pages = site.pages
+    | where: "nav", true
+    | sort: "nav_order" %}
+
+  {% for nav_page in nav_pages %}
+    <a href="{{ nav_page.url | relative_url }}">
+      {{ nav_page.title }}
+    </a>
+  {% endfor %}
+</nav>
 </header>
 
 <main>
