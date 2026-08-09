@@ -294,19 +294,17 @@ Les référentiels restent ensuite à étudier dans leur propre contexte.
 Cette fiche introduit plusieurs notions qui pourront être approfondies séparément :
 
 - [MOA et MOE](moa-moe.md) ;
-- ICS ;
-- IACS ;
-- SCADA ;
-- PLC / API ;
-- DCS ;
-- SIS ;
-- IHM / HMI ;
-- systèmes cyber-physiques ;
-- segmentation réseau ;
-- défense en profondeur ;
-- Zero Trust ;
-- cybersécurité industrielle ;
-- cybersécurité des dispositifs médicaux.
+- ICS
+- IACS
+- SCADA
+- API
+- IHM / HMI
+- systèmes cyber-physiques
+- segmentation réseau
+- défense en profondeur
+- Zero Trust
+- cybersécurité industrielle
+- cybersécurité des dispositifs médicaux
 
 ---
 
