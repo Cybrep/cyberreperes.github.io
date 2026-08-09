@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Guide Cybersécurité des systèmes industriels"
+title: "CLUSIF - Guide Cybersécurité des systèmes industriels"
 description: "Guide du CLUSIF consacré à la cybersécurité des systèmes industriels et aux mesures pratiques de sécurisation."
 type: "guide"
 organisme: "CLUSIF"
@@ -85,8 +85,7 @@ Les recommandations du guide peuvent contribuer à différents travaux et livrab
 Ces correspondances doivent être établies en fonction du contenu précis du guide et du contexte du projet ; elles ne constituent pas nécessairement des exigences formelles du CLUSIF.
 
 ## Versions
-2025 : Version actuelle
-2021 : Version précédente
+2025 : Version actuelle ; 2021 : Version précédente
 
 La version 2025 constitue la seconde édition du guide.
 
