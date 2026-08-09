@@ -77,7 +77,8 @@ Le terme OT recouvre de nombreuses technologies. Dans l'industrie, on retrouve n
 - **systèmes instrumentés de sécurité**
 - **postes d'ingénierie et de maintenance**
 
-L'ensemble de ces composants peut constituer un ICS (*Industrial Control System*) ou, selon le contexte, un IACS (*Industrial Automation and Control System*). Ces termes ne sont pas strictement interchangeables. OT est un terme large. ICS et IACS désignent plus spécifiquement des ensembles de systèmes de contrôle et d'automatisation industriels.
+
+> L'ensemble de ces composants peut constituer un ICS (*Industrial Control System*) ou, selon le contexte, un IACS (*Industrial Automation and Control System*). Ces termes ne sont pas strictement interchangeables. OT est un terme large. ICS et IACS désignent plus spécifiquement des ensembles de systèmes de contrôle et d'automatisation industriels.
 ---
 
 ## OT ne signifie pas uniquement « industrie »
