@@ -42,7 +42,51 @@
       margin: 3px 0 20px;
       color: #666;
     }
+    /* Identité visuelle CyberRepères */
 
+    .site-brand {
+      display: block;
+      margin-bottom: 20px;
+      text-decoration: none;
+    }
+
+    .site-brand img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .site-brand-mobile {
+      display: none;
+    }
+
+    .site-brand-banner {
+      border-radius: 10px;
+    }
+
+    /* Version mobile */
+    @media (max-width: 700px) {
+      .site-brand-desktop {
+        display: none;
+      }
+
+      .site-brand-mobile {
+        display: block;
+        max-width: 100%;
+      }
+
+      .site-brand-mobile img {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        margin: 0 auto;
+      }
+
+      header {
+        padding-top: 15px;
+        margin-bottom: 25px;
+      }
+    }
     nav a {
       margin-right: 18px;
       text-decoration: none;
@@ -221,22 +265,23 @@
 <body>
 
 <header>
-  <a class="site-title" href="{{ '/' | relative_url }}">
-    {{ site.title }}
+
+  <a class="site-brand site-brand-desktop"
+     href="{{ '/' | relative_url }}"
+     aria-label="CyberRepères — Accueil">
+    <img
+      class="site-brand-banner"
+      src="{{ '/assets/images/cyberreperes-banner-low.png' | relative_url }}"
+      alt="CyberRepères — Des références pour comprendre, des repères pour agir.">
   </a>
 
-  <div class="site-description">
-    {{ site.description }}
-  </div>
-
-<!--  <nav>
-    <a href="{{ '/' | relative_url }}">Accueil</a>
-    <a href="{{ '/comprendre/' | relative_url }}">Comprendre</a>
-    <a href="{{ '/referentiels/' | relative_url }}">Référentiels</a>
-    <a href="{{ '/methodes/' | relative_url }}">Méthodes</a>
-    <a href="{{ '/livrables/' | relative_url }}">Livrables</a>
-    <a href="{{ '/correspondances/' | relative_url }}">Correspondances</a> 
-  </nav>-->
+  <a class="site-brand site-brand-mobile"
+     href="{{ '/' | relative_url }}"
+     aria-label="CyberRepères — Accueil">
+    <img
+      src="{{ '/assets/images/cyberreperes-logo-mobile.png' | relative_url }}"
+      alt="CyberRepères">
+  </a>
   
   <nav>
   <a href="{{ '/' | relative_url }}">Accueil</a>
