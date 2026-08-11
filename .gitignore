@@ -1,0 +1,17 @@
+# Environnement Jekyll / Ruby
+.venv/
+.bundle/
+.sass-cache/
+_site/
+
+# Environnement Python
+__pycache__/
+*.py[cod]
+
+# Catalogues maîtres Excel
+# Les fichiers de travail restent hors Git.
+catalogues/
+
+# Fichiers système / éditeur
+*~
+.DS_Store

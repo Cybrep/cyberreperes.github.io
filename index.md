@@ -16,16 +16,19 @@ Normes, référentiels, guides, bonnes pratiques, méthodes et retours d'expéri
 ## Pourquoi CyberRepères ?
 
 La cybersécurité industrielle s'appuie sur une quantité importante de normes, de référentiels et de guides de bonnes pratiques.
+CyberRepères est né d’un constat simple : dans un domaine aussi vaste et mouvant que la cybersécurité, se repérer est déjà une victoire.
+Mon parcours — de l’automatisme industriel à la sécurité des systèmes d’information, en passant par l’IT et des secteurs aussi variés que la santé ou l’énergie — m’a appris une chose : on ne sait pas tout, mais on sait où trouver l’information fiable.
+Ici, pas de jargon inutile, pas de solutions magiques. Juste des repères : normes, bonnes pratiques, publications de référence… pour que vous puissiez, vous aussi, vous orienter et agir en connaissance de cause.
+L'objectif est simple : vous aider à y voir plus clair dans la jungle des référentiels.
+Face à la multitude de documents (IEC 62443, ISO 27001, ISO 22301, NIST, ANSSI, SANS, NIS2, CRA...), il n'est pas toujours évident de savoir :
+- quel document consulter,
+- à quel besoin il répond,
+- quels documents cyber il permet de construire,
+- quelles exigences ou bonnes pratiques il contient,
+- comment les différents référentiels se complètent.
 
-IEC 62443, ISO 27001, ISO 22301, NIST, ANSSI, SANS, NIS2, CRA...
-Il n'est pas toujours évident de savoir :
+CyberRepères est là pour vous donner ces repères. Que vous soyez de passage ou en quête d’approfondissements, ce site est conçu pour que vous ne vous perdiez jamais en route.
 
-- quel document consulter
-- à quel besoin il répond
-- quels document cyber il permet de construire
-- quelles exigences ou bonnes pratiques il contient
-- comment les différents référentiels se complètent
-CyberRepères cherche à apporter des repères dans cet ensemble documentaire.
 
 ---
 
