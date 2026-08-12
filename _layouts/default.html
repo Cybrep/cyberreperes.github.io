@@ -40,16 +40,17 @@
     }
 
     header {
-      border-bottom: 1px solid #ddd;
+      border-bottom: 0;
       padding: 25px 0 15px;
       margin-bottom: 10px;
     }
-
-    .site-title {
-      font-size: 1.8rem;
-      font-weight: 700;
-      text-decoration: none;
-      color: #222;
+    .main-nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: #fff;
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
     }
 
     .site-description {
@@ -98,7 +99,7 @@
 
       header {
         padding-top: 15px;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
       }
     }
     nav a {
@@ -147,6 +148,12 @@
       grid-template-columns: 120px minmax(280px, 2fr) 120px 120px 120px 70px 55px;
       gap: 12px;
       align-items: center;
+    }
+
+    /* Catalogue Outils : donner davantage d'espace à la colonne Objet */
+    .catalogue-tools-table .catalogue-header,
+    .catalogue-tools-table .catalogue-row {
+     grid-template-columns: 100px minmax(220px, 1fr) minmax(450px, 3fr);
     }
 
     .catalogue-header {
@@ -300,8 +307,8 @@
       src="{{ '/assets/images/cyberreperes-logo-mobile.png' | relative_url }}"
       alt="CyberRepères">
   </a>
-  
-  <nav>
+</header>
+  <nav class="main-nav">
   <a href="{{ '/' | relative_url }}">Accueil</a>
 
   {% assign nav_pages = site.pages
@@ -313,8 +320,7 @@
       {{ nav_page.title }}
     </a>
   {% endfor %}
-</nav>
-</header>
+  </nav>
 
 {% unless page.url == "/" %}
 <nav class="breadcrumb" aria-label="Fil d’Ariane">
