@@ -1,18 +1,16 @@
 ---
 layout: default
-title: "Outils"
-description: "Catalogue des outils et référentiels interactifs utiles à la cybersécurité."
+title: "Méthodes"
+description: "Méthodes, modèles et ressources méthodologiques utiles à la cybersécurité."
 nav: true
 nav_order: 30
 ---
 
-# Outils & référentiels interactifs
-
-Cette sélection rassemble des outils, méthodes et référentiels interactifs utiles pour analyser, évaluer, cartographier, durcir et améliorer la cybersécurité.
+{% include methodes-header.md %}
 
 **18 entrées** · **6 catégories**
 
-📥 [Télécharger le catalogue Excel]({{ site.baseurl }}/downloads/CyberReperes_Catalogue_Outils.xlsx)
+📥 [Télécharger le catalogue Excel]({{ site.baseurl }}/downloads/CyberReperes_Catalogue_Methodes.xlsx)
 
 <section class="catalogue-section">
   <h2>Menaces</h2>

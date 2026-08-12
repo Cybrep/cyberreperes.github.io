@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-V2 — Génère la page /outils/ de CyberRepères à partir du catalogue
-Excel « Outils et référentiels interactifs ».
+V2 — Génère la page /methodes/ de CyberRepères à partir du catalogue
+Excel « Méthodes, modèles et ressources méthodologiques utiles à la cybersécurité ».
 
 Le script est volontairement spécialisé : il ne modifie pas
 generate_referentiels.py.
 
 Usage :
-    python scripts/generate_outils.py
-    python scripts/generate_outils.py --check
-    python scripts/generate_outils.py --excel chemin/vers/catalogue.xlsx
+    python scripts/generate_methodes.py
+    python scripts/generate_methodes.py --check
+    python scripts/generate_methodes.py --excel chemin/vers/catalogue.xlsx
 """
 
 from __future__ import annotations
@@ -22,8 +22,8 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 
-DEFAULT_OUTPUT = Path("outils/index.md")
-DEFAULT_DOWNLOAD = Path("downloads/CyberReperes_Catalogue_Outils.xlsx")
+DEFAULT_OUTPUT = Path("methodes/index.md")
+DEFAULT_DOWNLOAD = Path("downloads/CyberReperes_Catalogue_Methodes.xlsx")
 
 # Le nom exact du fichier peut évoluer : le script recherche automatiquement
 # un classeur contenant « Outils » si le chemin par défaut n'existe pas.
@@ -330,15 +330,13 @@ def generate(categories, output: Path, download: Path, source_excel: Path):
 
     text = f"""---
 layout: default
-title: "Outils"
-description: "Catalogue des outils et référentiels interactifs utiles à la cybersécurité."
+title: "Méthodes"
+description: "Méthodes, modèles et ressources méthodologiques utiles à la cybersécurité."
 nav: true
 nav_order: 30
 ---
 
-# Outils & référentiels interactifs
-
-Cette sélection rassemble des outils, méthodes et référentiels interactifs utiles pour analyser, évaluer, cartographier, durcir et améliorer la cybersécurité.
+{{% include methodes-header.md %}}
 
 **{total} entrées** · **{len(categories)} catégories**
 
@@ -356,7 +354,7 @@ Cette sélection rassemble des outils, méthodes et référentiels interactifs u
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Génère la page CyberRepères /outils/ depuis le catalogue Excel."
+        description="Génère la page CyberRepères /methodes/ depuis le catalogue Excel."
     )
     parser.add_argument("--excel", type=Path, default=None,
                         help="Classeur Excel source.")
