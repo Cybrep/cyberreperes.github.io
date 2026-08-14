@@ -156,6 +156,20 @@
      grid-template-columns: 100px minmax(220px, 1fr) minmax(450px, 3fr);
     }
 
+    /* Catalogue Normes : donner davantage d'espace à la colonne Description */
+    .catalogue-normes-table .catalogue-header,
+    .catalogue-normes-table .catalogue-row {
+    grid-template-columns: minmax(220px, 15%) minmax(0, 85%);
+    }
+
+    .catalogue-normes-table .catalogue-row > div:first-child {
+      white-space: nowrap;
+    }
+
+    .catalogue-normes-table .catalogue-row > div:last-child {
+      min-width: 0;
+    }
+
     .catalogue-header {
       padding: 10px 12px;
       background: #f5f5f5;
