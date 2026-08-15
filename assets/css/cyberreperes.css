@@ -188,3 +188,290 @@ a:hover {
 .catalogue-intro-referentiels {
     border-left-color: var(--cr-navy);
 }
+/* ============================================================
+   CyberRepères — Page Comprendre
+   ============================================================ */
+
+.catalogue-intro-comprendre {
+    border-left-color: var(--cr-navy);
+}
+
+.catalogue-intro-comprendre .catalogue-intro-label::after {
+    background: var(--cr-navy);
+}
+
+.comprendre-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin: 20px 0 35px;
+}
+
+.comprendre-card {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 18px 20px;
+    border: 1px solid #e2e6eb;
+    border-left: 3px solid var(--cr-navy);
+    border-radius: var(--cr-radius);
+    background: var(--cr-surface);
+    box-shadow: var(--cr-shadow);
+    text-decoration: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease,
+                transform 0.15s ease;
+}
+
+.comprendre-card:hover {
+    border-left-color: var(--cr-blue);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+}
+
+.comprendre-card-title {
+    color: var(--cr-navy);
+    font-weight: 700;
+}
+
+.comprendre-card-description {
+    color: var(--cr-text);
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+.comprendre-coming {
+    margin: 20px 0 30px;
+    padding: 18px 22px;
+    background: var(--cr-surface);
+    border-left: 3px solid var(--cr-turquoise);
+    border-radius: var(--cr-radius);
+    color: var(--cr-text);
+    line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+    .comprendre-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* ============================================================
+   CyberRepères — Page d'accueil
+   ============================================================ */
+
+/* ---------- Hero ---------- */
+
+.home-hero {
+    margin: 10px 0 42px;
+    padding: 34px 38px 36px;
+    background: var(--cr-surface);
+    border-left: 5px solid var(--cr-navy);
+    border-radius: var(--cr-radius);
+    box-shadow: var(--cr-shadow);
+}
+
+.home-hero-label {
+    margin-bottom: 12px;
+    color: var(--cr-navy);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.home-hero h1 {
+    margin: 0 0 18px;
+    color: var(--cr-navy);
+    font-size: 2.25rem;
+    line-height: 1.2;
+}
+
+.home-hero p {
+    max-width: 850px;
+    margin: 0;
+    color: var(--cr-text);
+    font-size: 1.08rem;
+    line-height: 1.65;
+}
+
+
+/* ---------- Cartes d'entrée ---------- */
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin: 22px 0 42px;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    min-width: 0;
+    padding: 22px 24px;
+    border: 1px solid #e2e6eb;
+    border-left: 4px solid var(--cr-navy);
+    border-radius: var(--cr-radius);
+    background: var(--cr-surface);
+    box-shadow: var(--cr-shadow);
+    color: var(--cr-text);
+    text-decoration: none;
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        border-color 0.15s ease;
+}
+
+.home-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.09);
+    color: var(--cr-text);
+}
+
+.home-card-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.home-card strong {
+    color: var(--cr-navy);
+    font-size: 1.15rem;
+}
+
+.home-card span:last-child {
+    line-height: 1.55;
+}
+
+
+/* Couleurs des quatre portes d'entrée */
+
+.home-card-comprendre {
+    border-left-color: var(--cr-navy);
+}
+
+.home-card-comprendre .home-card-label {
+    color: var(--cr-navy);
+}
+
+.home-card-referentiels {
+    border-left-color: var(--cr-navy);
+}
+
+.home-card-referentiels .home-card-label {
+    color: var(--cr-navy);
+}
+
+.home-card-methodes {
+    border-left-color: var(--cr-turquoise);
+}
+
+.home-card-methodes .home-card-label {
+    color: var(--cr-turquoise);
+}
+
+.home-card-normes {
+    border-left-color: var(--cr-blue);
+}
+
+.home-card-normes .home-card-label {
+    color: var(--cr-blue);
+}
+
+
+/* ---------- Chaîne opérationnelle ---------- */
+
+.home-chain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin: 25px 0 28px;
+}
+
+.home-chain span {
+    padding: 9px 14px;
+    border: 1px solid #dfe4e9;
+    border-radius: var(--cr-radius);
+    background: var(--cr-surface);
+    color: var(--cr-navy);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.home-chain b {
+    color: var(--cr-turquoise);
+    font-size: 1.1rem;
+}
+
+
+/* ---------- Liste des contraintes industrielles ---------- */
+
+.home-points {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px 24px;
+    margin: 22px 0 28px;
+    padding: 20px 24px;
+    border-left: 3px solid var(--cr-turquoise);
+    border-radius: var(--cr-radius);
+    background: var(--cr-surface);
+}
+
+.home-points li {
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+/* ---------- Histoire ---------- */
+
+.home-story {
+    margin: 20px 0 35px;
+    padding: 24px 28px;
+    border-left: 3px solid var(--cr-navy);
+    border-radius: var(--cr-radius);
+    background: var(--cr-surface);
+    line-height: 1.65;
+}
+
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 800px) {
+
+    .home-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .home-points {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-hero {
+        padding: 28px 24px;
+    }
+
+    .home-hero h1 {
+        font-size: 1.85rem;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .home-points {
+        grid-template-columns: 1fr;
+    }
+
+    .home-chain {
+        justify-content: flex-start;
+    }
+
+    .home-hero {
+        padding: 24px 20px;
+    }
+
+    .home-hero h1 {
+        font-size: 1.6rem;
+    }
+}

@@ -6,29 +6,51 @@ nav: true
 nav_order: 10
 ---
 
-# Comprendre
-La cybersécurité fait appel à de nombreuses notions, à des métiers et à des concepts qui peuvent parfois sembler abstraits.
-Cette rubrique présente les notions nécessaires pour comprendre les démarches de cybersécurité, particulièrement dans les environnements industriels.
-L'objectif n'est pas de constituer un cours complet de cybersécurité, mais de donner les **repères nécessaires pour comprendre les référentiels, les méthodes et les pratiques** présentés sur CyberRepères.
+<div class="catalogue-intro catalogue-intro-comprendre">
 
----
+  <div class="catalogue-intro-label">
+    COMPRENDRE
+  </div>
+
+  <div class="catalogue-intro-content">
+    <p>
+La cybersécurité fait appel à de nombreuses notions, à des métiers et à des concepts qui peuvent parfois sembler abstraits. Cette rubrique présente les notions nécessaires pour comprendre les démarches de cybersécurité, particulièrement dans les environnements industriels.
+    </p>
+
+    <p>
+L'objectif n'est pas de constituer un cours complet de cybersécurité, mais de donner les <strong>repères nécessaires pour comprendre les référentiels, les méthodes et les pratiques</strong> présentés sur CyberRepères.
+    </p>
+  </div>
+
+</div>
 
 ## Notions et acteurs
 
+<div class="comprendre-grid">
+
 {% assign pages_comprendre = site.pages
   | where_exp: "page", "page.path contains 'comprendre/'"
-  | sort: "title" %}
+  | sort: "title"
+%}
 
 {% for page in pages_comprendre %}
   {% unless page.path == "comprendre/index.md" %}
-### [{{ page.title }} →]({{ page.url | relative_url }})
 
-{{ page.description }}
+  <a class="comprendre-card" href="{{ page.url | relative_url }}">
+    <span class="comprendre-card-title">{{ page.title }} →</span>
+    {% if page.description %}
+    <span class="comprendre-card-description">{{ page.description }}</span>
+    {% endif %}
+  </a>
 
   {% endunless %}
 {% endfor %}
 
+</div>
+
 ## À venir
+
+<div class="comprendre-coming">
 
 Cette rubrique sera progressivement enrichie avec notamment :
 
@@ -38,7 +60,4 @@ Cette rubrique sera progressivement enrichie avec notamment :
 - actifs et périmètres
 - défense en profondeur
 
----
-
-**CyberRepères**
-*Des références pour comprendre, des repères pour agir.*
+</div>
