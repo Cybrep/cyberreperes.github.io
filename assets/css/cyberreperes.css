@@ -1,0 +1,190 @@
+/* ============================================================
+   CyberRepères — Identité visuelle
+   ============================================================ */
+
+:root {
+    /* Palette officielle */
+    --cr-navy: #0B204F;
+    --cr-blue: #0EA5E9;
+    --cr-turquoise: #14B8A6;
+    --cr-orange: #F97316;
+    --cr-gray-light: #E5E7EB;
+    --cr-gray: #334155;
+
+    /* Couleurs fonctionnelles */
+    --cr-background: #FFFFFF;
+    --cr-surface: #F8FAFC;
+    --cr-text: #334155;
+    --cr-heading: #0B204F;
+    --cr-border: #E5E7EB;
+
+    /* Typographie */
+    --cr-font: "Inter", Arial, sans-serif;
+
+    /* Dimensions */
+    --cr-radius: 8px;
+    --cr-radius-small: 5px;
+
+    /* Ombres */
+    --cr-shadow: 0 2px 8px rgba(11, 32, 79, 0.08);
+    --cr-shadow-hover: 0 5px 16px rgba(11, 32, 79, 0.12);
+}
+
+
+/* ============================================================
+   Base
+   ============================================================ */
+
+html {
+    font-family: var(--cr-font);
+}
+
+body {
+    background: var(--cr-background);
+    color: var(--cr-text);
+}
+body {
+    font-family: "Inter", Arial, sans-serif;
+}
+
+
+/* ============================================================
+   Typographie
+   ============================================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--cr-heading);
+    font-weight: 700;
+}
+
+h1 {
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    letter-spacing: -0.015em;
+}
+
+p,
+li {
+    line-height: 1.65;
+}
+
+
+/* ============================================================
+   Liens
+   ============================================================ */
+
+a {
+    color: var(--cr-blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cr-navy);
+    text-decoration: underline;
+}
+
+
+/* ============================================================
+   Sélection de texte
+   ============================================================ */
+
+::selection {
+    background: var(--cr-blue);
+    color: white;
+}
+/* ============================================================
+   CyberRepères — Introductions de catalogues
+   ============================================================ */
+
+.catalogue-intro {
+    position: relative;
+    margin: 28px 0 35px;
+    padding: 22px 28px 24px;
+    background: var(--cr-surface);
+    border-left: 4px solid var(--cr-blue);
+    border-radius: var(--cr-radius);
+    box-shadow: var(--cr-shadow);
+}
+
+.catalogue-intro-label {
+    margin-bottom: 12px;
+    color: var(--cr-navy);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.catalogue-intro-label::after {
+    content: "";
+    display: inline-block;
+    width: 42px;
+    height: 2px;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.catalogue-intro-normes {
+    border-left-color: var(--cr-blue);
+}
+
+.catalogue-intro-normes .catalogue-intro-label::after {
+    background: var(--cr-blue);
+}
+
+
+.catalogue-intro-methodes {
+    border-left-color: var(--cr-turquoise);
+}
+
+.catalogue-intro-methodes .catalogue-intro-label::after {
+    background: var(--cr-turquoise);
+}
+
+
+.catalogue-intro-referentiels {
+    border-left-color: var(--cr-navy);
+}
+
+.catalogue-intro-referentiels .catalogue-intro-label::after {
+    background: var(--cr-navy);
+}
+
+.catalogue-intro-content {
+    max-width: 1050px;
+    min-width: 0;
+}
+
+.catalogue-intro p {
+    margin: 0 0 12px;
+    color: var(--cr-text);
+    line-height: 1.65;
+}
+
+.catalogue-intro p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Variante Normes */
+
+.catalogue-intro-normes {
+    border-left-color: var(--cr-blue);
+}
+
+
+/* Variante Méthodes */
+
+.catalogue-intro-methodes {
+    border-left-color: var(--cr-turquoise);
+}
+
+.catalogue-intro-referentiels {
+    border-left-color: var(--cr-navy);
+}

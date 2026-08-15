@@ -6,9 +6,7 @@ nav: true
 nav_order: 20
 ---
 
-# Référentiels
-
-Cette sélection rassemble des guides, publications, recommandations et autres documents de référence utiles à la cybersécurité industrielle et à ses domaines connexes.
+{% include referentiels-header.md %}
 
 **89 références** · **14 organismes**
 

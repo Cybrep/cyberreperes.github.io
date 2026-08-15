@@ -14,7 +14,7 @@ CyberRepères, c’est l’outil que j’aurais aimé avoir quand je débutais e
 
 ## Pourquoi CyberRepères ?
 
-Il y a quelques années, en tant qu’automaticien dans l’agroalimentaire, je me suis retrouvé confronté à des questions de cybersécurité **sans savoir par où commencer**. Les normes ? Les guides ? Les outils ? Tout semblait **trop dispersé**. Aujourd’hui, après avoir traversé plusieurs secteurs (agroalimentaire, IT, santé et maintenant l'énergie), j’ai appris à **naviguer dans cette complexité** — et c’est cette expérience que je veux partager avec vous. CyberRepères est né d’un constat simple : dans un domaine aussi vaste que la cybersécurité, **se repérer est déjà une victoire**. Mon objectif ? **Vous aider à trouver la bonne information, au bon moment, et à comprendre comment l’utiliser**.
+Il y a quelques années, après avoir été automaticien dans l’agroalimentaire, je me suis retrouvé sur un poste en cybersécurité défensive confronté à des questions **sans savoir par où commencer**. Les normes ? Les guides ? Les outils ? Tout semblait **trop dispersé**. Aujourd’hui, après avoir traversé plusieurs secteurs (agroalimentaire, IT, santé et maintenant l'énergie), j’ai appris à **naviguer dans cette complexité** — et c’est cette expérience que je veux partager avec vous. Ce site est né d’un constat simple : dans un domaine aussi vaste que la cybersécurité, se repérer n'est pas simple. Mon objectif ? **Vous aider à trouver la bonne information, au bon moment, et à comprendre comment l’utiliser**.
 
 Face à la multitude de documents — IEC 62443, ISO 27001, ISO 22301, NIST, ANSSI, SANS, NIS2, CRA... — il n'est pas toujours évident de savoir :
 - quel document consulter ?
@@ -45,7 +45,7 @@ Identifier les principaux textes réglementaires et comprendre leur articulation
 ### 🧭 Méthodes
 
 Mettre en relation les méthodes d'analyse, d'évaluation, de gestion des risques, de maturité, de vulnérabilités, de durcissement ou d'architecture avec les besoins auxquels elles répondent.
-
+<!--
 ### 📄 Livrables
 
 Identifier les documents pouvant être produits dans une démarche de cybersécurité industrielle :
@@ -62,7 +62,7 @@ Identifier les documents pouvant être produits dans une démarche de cybersécu
 
 ### 🔗 Correspondances
 
-Mettre en relation les références, les exigences, les méthodes et les livrables afin de comprendre comment les différents éléments s'articulent.
+Mettre en relation les références, les exigences, les méthodes et les livrables afin de comprendre comment les différents éléments s'articulent. -->
 
 ---
 
@@ -108,29 +108,29 @@ La présence d'une norme dans le catalogue ne signifie donc pas qu'elle doit sys
 
 ## Explorer CyberRepères
 
-### Normes
+### Référentiels
 
-Normes et standards structurants utiles à la cybersécurité industrielle et à ses domaines connexes.
+Publications de référence permettant d'approfondir un sujet ou de disposer de recommandations opérationnelles.
 
 ### Méthodes
 
 Méthodes, modèles et ressources méthodologiques pour analyser, évaluer, traiter et améliorer la cybersécurité.
 
-### Guides et bonnes pratiques
+### Normes
 
-Publications de référence permettant d'approfondir un sujet ou de disposer de recommandations opérationnelles.
+Normes et standards structurants utiles à la cybersécurité industrielle et à ses domaines connexes.
 
 ### Cybersécurité industrielle
 
-Ressources consacrées aux environnements OT, aux systèmes industriels et à leurs contraintes particulières.
-
+Ressources consacrées à la défense de environnements OT, aux systèmes industriels et à leurs contraintes particulières.
+<!--
 ### Livrables
 
 Catalogue des documents pouvant être produits dans une démarche de cybersécurité.
 
 ### Correspondances
 
-Mise en relation entre référentiels, exigences, pratiques, méthodes et livrables.
+Mise en relation entre référentiels, exigences, pratiques, méthodes et livrables. -->
 
 ---
 
