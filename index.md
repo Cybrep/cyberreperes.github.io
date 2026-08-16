@@ -2,6 +2,7 @@
 layout: default
 title: "Accueil"
 description: "Des références pour comprendre, des repères pour agir."
+comments: true
 ---
 
 <div class="home-hero">

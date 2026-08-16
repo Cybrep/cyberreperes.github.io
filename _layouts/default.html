@@ -249,6 +249,8 @@
 
     main {
       margin-bottom: 50px;
+      padding-top: 30px;
+      border-top: 1px solid #ddd;
     }
 
     footer {
@@ -371,6 +373,28 @@
 
 <main>
   {{ content }}
+
+  {% if page.comments %}
+  <section class="comments" aria-label="Commentaires">
+    <h2>Commentaires</h2>
+
+    <script src="https://giscus.app/client.js"
+            data-repo="Cybrep/cyberreperes.github.io"
+            data-repo-id="R_kgDOItyku7Q"
+            data-category="Commentaire CyberRepères"
+            data-category-id="DIC_kwDOItyku7C4DDheL"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="fr"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
+  {% endif %}
 </main>
 
 <footer>
