@@ -193,7 +193,7 @@ def render_category(sheet_name: str, headers, rows):
     first_col = headers[0] if headers else None
 
     # Ces champs sont déjà visibles dans la ligne repliée.
-    excluded = {c for c in [ref_col, name_col, desc_col] if c}
+    excluded = {c for c in [ref_col, name_col, desc_col, url_col] if c}
 
     out = [
         '<section class="catalogue-section">',
@@ -330,11 +330,14 @@ def generate(categories, output: Path, download: Path, source_excel: Path):
 
     text = f"""---
 layout: default
-title: "Méthodes"
-description: "Méthodes, modèles et ressources méthodologiques utiles à la cybersécurité."
+title: "Méthodes de cybersécurité industrielle"
+nav_title: "Méthodes"
+description: "Méthodes, modèles et ressources pour analyser les menaces, évaluer les risques et la maturité, traiter les vulnérabilités et structurer la cybersécurité industrielle."
 nav: true
 nav_order: 30
 ---
+
+# Méthodes de cybersécurité industrielle
 
 {{% include methodes-header.md %}}
 

@@ -345,11 +345,14 @@ def generate(categories, output: Path, download: Path, source_excel: Path):
 
     text = f"""---
 layout: default
-title: "Normes"
-description: "Normes et standards structurants utiles à la cybersécurité industrielle."
+title: "Normes et standards en cybersécurité industrielle"
+nav_title: "Normes"
+description: "Sélection de normes et standards utiles à la cybersécurité industrielle, à la gestion des risques, à la continuité et à la sécurité des systèmes industriels."
 nav: true
 nav_order: 40
 ---
+
+# Normes et standards en cybersécurité industrielle
 
 {{% include normes-header.md %}}
 

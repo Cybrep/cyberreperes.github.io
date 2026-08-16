@@ -1,11 +1,12 @@
 ---
 layout: default
-title: "Comprendre"
+title: "Comprendre la cybersécurité industrielle"
+nav_title: "Comprendre"
 description: "Notions, acteurs et concepts pour comprendre la cybersécurité et les projets industriels."
 nav: true
 nav_order: 10
 ---
-
+# Comprendre la cybersécurité industrielle
 <div class="catalogue-intro catalogue-intro-comprendre">
 
   <div class="catalogue-intro-label">

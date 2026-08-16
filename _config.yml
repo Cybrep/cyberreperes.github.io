@@ -1,3 +1,12 @@
 title: CyberRepères
 description: Des références pour comprendre, des repères pour agir.
+
+url: "https://cyberreperes.fr"
+baseurl: ""
+lang: fr-FR
+
 theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

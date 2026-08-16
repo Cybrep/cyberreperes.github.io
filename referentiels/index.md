@@ -1,14 +1,16 @@
 ---
 layout: default
-title: "Référentiels"
-description: "Catalogue des guides, publications, recommandations et autres documents de référence sélectionnés par CyberRepères."
+title: "Référentiels de cybersécurité industrielle"
+nav_title: "Référentiels"
+description: "Catalogue des guides, publications, recommandations et autres documents de référence utiles à la cybersécurité industrielle."
 nav: true
 nav_order: 20
 ---
+# Référentiels de cybersécurité industrielle
 
 {% include referentiels-header.md %}
 
-**89 références** · **14 organismes**
+**88 références** · **14 organismes**
 
 📥 [Télécharger le catalogue Excel]({{ site.baseurl }}/downloads/CyberReperes_Catalogue_Referentiels.xlsx)
 
@@ -44,7 +46,7 @@ nav_order: 20
       <span>AIEA</span>
       <span>Publication</span>
       <span>Transverse</span>
-      <span>1918</span>
+      <span>2021</span>
       <span><a href="https://www.iaea.org/" target="_blank" rel="noopener">🔗</a></span>
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Publication de référence sur Computer Security for Nuclear Security.</p>
@@ -59,7 +61,7 @@ nav_order: 20
       <span>AIEA</span>
       <span>Publication</span>
       <span>Transverse</span>
-      <span>—</span>
+      <span>2018</span>
       <span><a href="https://www.iaea.org/" target="_blank" rel="noopener">🔗</a></span>
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Publication de référence sur Computer Security of Instrumentation and Control Systems at Nuclear Facilities.</p>
@@ -74,7 +76,7 @@ nav_order: 20
       <span>AIEA</span>
       <span>Publication</span>
       <span>Transverse</span>
-      <span>1921</span>
+      <span>2021</span>
       <span><a href="https://www.iaea.org/" target="_blank" rel="noopener">🔗</a></span>
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Publication de référence sur Computer Security Techniques for Nuclear Facilities.</p>
@@ -89,7 +91,7 @@ nav_order: 20
       <span>AIEA</span>
       <span>Publication</span>
       <span>Transverse</span>
-      <span>1921</span>
+      <span>2024</span>
       <span><a href="https://www.iaea.org/" target="_blank" rel="noopener">🔗</a></span>
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Publication de référence sur Techniques de sécurité informatique pour les installations nucléaires.</p>
@@ -289,7 +291,7 @@ nav_order: 20
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Document méthodologique consacré à Système d’information répliqué – Fiche méthode.</p>
 <ul><li><strong>Langue :</strong> FR</li><li><strong>Version :</strong> 1.0</li><li><strong>Statut :</strong> À vérifier</li><li><strong>Accès :</strong> Libre</li><li><strong>Pertinence :</strong> Haute</li><li><strong>Notions :</strong> Homologation</li><li><strong>Méthodes :</strong> Homologation</li></ul>
-<p><a href="https://cyber.gouv.fr/" target="_blank" rel="noopener">Source officielle</a></p>
+<p><a href="https://cyber.gouv.fr/" target="_blank" rel="noopener">Source officielle</a> · <a href="https://messervices.cyber.gouv.fr/documents-guides/Fiche_methode_Systeme_dinformation_replique.pdf" target="_blank" rel="noopener">Télécharger</a></p>
 <p><strong>Note CyberRepères :</strong> Présent dans la bibliothèque Cyber/ANSSI/</p></div>
   </details>
   <details class="catalogue-entry">
@@ -325,7 +327,7 @@ nav_order: 20
   <details class="catalogue-entry">
     <summary class="catalogue-row">
       <span class="catalogue-ref"><strong>ANSSI-051</strong></span>
-      <span>Automate programmable industriel – Modèle de cible de sécurité</span>
+      <span>Automate programmable industriel – Modèle de cible de sécurité – Court terme</span>
       <span>ANSSI</span>
       <span>Profil de protection</span>
       <span>OT transverse</span>
@@ -340,7 +342,7 @@ nav_order: 20
   <details class="catalogue-entry">
     <summary class="catalogue-row">
       <span class="catalogue-ref"><strong>ANSSI-064</strong></span>
-      <span>Automate programmable industriel – Modèle de cible de sécurité</span>
+      <span>Automate programmable industriel – Modèle de cible de sécurité – Moyen terme</span>
       <span>ANSSI</span>
       <span>Profil de protection</span>
       <span>OT transverse</span>
@@ -659,7 +661,7 @@ nav_order: 20
       <span>BSI</span>
       <span>Guide</span>
       <span>IT/OT</span>
-      <span>—</span>
+      <span>2018</span>
       <span><a href="https://www.bsi.bund.de/" target="_blank" rel="noopener">🔗</a></span>
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Guide ou recommandations sur Cyber Security Requirements for Network-Connected Medical Devices.</p>
@@ -689,7 +691,7 @@ nav_order: 20
       <span>BSI</span>
       <span>Guide</span>
       <span>OT transverse</span>
-      <span>—</span>
+      <span>2014</span>
       <span><a href="https://www.bsi.bund.de/" target="_blank" rel="noopener">🔗</a></span>
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Guide ou recommandations sur Security Requirements for mechanical engineers and integrators.</p>
@@ -704,7 +706,7 @@ nav_order: 20
       <span>BSI</span>
       <span>Guide</span>
       <span>OT transverse</span>
-      <span>—</span>
+      <span>2014</span>
       <span><a href="https://www.bsi.bund.de/" target="_blank" rel="noopener">🔗</a></span>
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Guide ou recommandations sur Security Requirements for Network-Connected Industrial Components.</p>
@@ -985,22 +987,7 @@ nav_order: 20
   <details class="catalogue-entry">
     <summary class="catalogue-row">
       <span class="catalogue-ref"><strong>NIST-031</strong></span>
-      <span>NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations</span>
-      <span>NIST</span>
-      <span>Publication</span>
-      <span>Transverse</span>
-      <span>2020</span>
-      <span><a href="https://www.nist.gov/" target="_blank" rel="noopener">🔗</a></span>
-    </summary>
-    <div class="catalogue-detail"><p><strong>Description :</strong> Publication de référence sur NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations.</p>
-<ul><li><strong>Langue :</strong> EN</li><li><strong>Statut :</strong> À vérifier</li><li><strong>Accès :</strong> Libre</li><li><strong>Pertinence :</strong> Moyenne</li></ul>
-<p><a href="https://www.nist.gov/" target="_blank" rel="noopener">Source officielle</a> · <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" target="_blank" rel="noopener">Télécharger</a></p>
-<p><strong>Note CyberRepères :</strong> Présent dans la bibliothèque Cyber/NIST/</p></div>
-  </details>
-  <details class="catalogue-entry">
-    <summary class="catalogue-row">
-      <span class="catalogue-ref"><strong>NIST-033</strong></span>
-      <span>NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations</span>
+      <span>NIST SP 800-53 Rev. 5.2.0 – Security and Privacy Controls for Information Systems and Organizations</span>
       <span>NIST</span>
       <span>Publication</span>
       <span>Transverse</span>
@@ -1154,7 +1141,7 @@ nav_order: 20
       <span>SANS</span>
       <span>Publication</span>
       <span>OT transverse</span>
-      <span>—</span>
+      <span>2018</span>
       <span><a href="https://www.sans.org/" target="_blank" rel="noopener">🔗</a></span>
     </summary>
     <div class="catalogue-detail"><p><strong>Description :</strong> Publication de référence sur Practical Industrial Control System (ICS) Cybersecurity: IT and OT Have Converged.</p>

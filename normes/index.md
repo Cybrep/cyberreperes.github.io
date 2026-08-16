@@ -1,10 +1,13 @@
 ---
 layout: default
-title: "Normes"
-description: "Normes et standards structurants utiles à la cybersécurité industrielle."
+title: "Normes et standards en cybersécurité industrielle"
+nav_title: "Normes"
+description: "Sélection de normes et standards utiles à la cybersécurité industrielle, à la gestion des risques, à la continuité et à la sécurité des systèmes industriels."
 nav: true
 nav_order: 40
 ---
+
+# Normes et standards en cybersécurité industrielle
 
 {% include normes-header.md %}
 
@@ -433,7 +436,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.iso.org/fr/standard/51581.html" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de ISO/IEC 27033-3">ISO/IEC 27033-3 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://www.iso.org/fr/standard/51582.html" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de ISO/IEC 27033-3">ISO/IEC 27033-3 ↗</a></div>
         <div>Sécurité de réseau — Partie 3 : Scénarios de réseautage de référence</div>
       </summary>
       <div class="catalogue-detail">
@@ -1194,7 +1197,7 @@ nav_order: 40
         <p><strong>Version / état :</strong> 2025</p>
         <p><strong>Langue :</strong> FR/EN</p>
         <p><strong>Références liées :</strong> 62443-2-1; 3-3</p>
-        <p><strong>Notes CyberReperes :</strong> Statut à vérifier lors de l&#x27;achat.</p>
+        <p><strong>Notes CyberReperes :</strong> RAS</p>
       </div>
     </details>
     <details class="catalogue-entry">
