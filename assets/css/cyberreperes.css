@@ -200,37 +200,108 @@ a:hover {
     background: var(--cr-navy);
 }
 
-.comprendre-grid {
+
+/* ---------- Sélecteur de vue ---------- */
+
+.comprendre-view-switcher {
+    display: flex;
+    gap: 8px;
+    margin: 25px 0 30px;
+    border-bottom: 1px solid var(--cr-border);
+}
+
+.comprendre-view-button {
+    appearance: none;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    background: transparent;
+    padding: 10px 16px;
+    margin-bottom: -1px;
+    color: #64748b;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+        color 0.15s ease,
+        background-color 0.15s ease,
+        border-color 0.15s ease;
+}
+
+.comprendre-view-button:hover {
+    color: var(--cr-navy);
+    background: var(--cr-surface);
+}
+
+.comprendre-view-button.active {
+    color: var(--cr-navy);
+    border-bottom-color: var(--cr-navy);
+}
+
+
+/* ---------- Vue Parcours ---------- */
+
+.comprendre-chapter {
+    margin: 30px 0 14px;
+}
+
+.comprendre-chapter:first-child {
+    margin-top: 10px;
+}
+
+.comprendre-chapter-title {
+    margin: 0;
+    padding: 0 0 8px;
+    color: var(--cr-navy);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    border-bottom: 2px solid var(--cr-border);
+}
+
+
+/* ---------- Grille des cartes ---------- */
+
+.comprendre-chapter-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;
-    margin: 20px 0 35px;
+    margin: 0 0 30px;
 }
+
+
+/* ---------- Cartes ---------- */
 
 .comprendre-card {
     display: flex;
     flex-direction: column;
     gap: 7px;
+    min-width: 0;
     padding: 18px 20px;
-    border: 1px solid #e2e6eb;
+    border: 1px solid var(--cr-border);
     border-left: 3px solid var(--cr-navy);
     border-radius: var(--cr-radius);
     background: var(--cr-surface);
     box-shadow: var(--cr-shadow);
+    color: var(--cr-text);
     text-decoration: none;
-    transition: border-color 0.15s ease, box-shadow 0.15s ease,
-                transform 0.15s ease;
+    transition:
+        border-color 0.15s ease,
+        box-shadow 0.15s ease,
+        transform 0.15s ease;
 }
 
 .comprendre-card:hover {
     border-left-color: var(--cr-blue);
-    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.08);
+    box-shadow: var(--cr-shadow-hover);
+    color: var(--cr-text);
+    text-decoration: none;
     transform: translateY(-1px);
 }
 
 .comprendre-card-title {
     color: var(--cr-navy);
     font-weight: 700;
+    line-height: 1.35;
 }
 
 .comprendre-card-description {
@@ -238,6 +309,19 @@ a:hover {
     font-size: 0.92rem;
     line-height: 1.5;
 }
+
+
+/* ---------- Date des dernières publications ---------- */
+
+.comprendre-card-date {
+    display: block;
+    margin-top: 5px;
+    color: #64748b;
+    font-size: 0.82rem;
+}
+
+
+/* ---------- Bloc À venir ---------- */
 
 .comprendre-coming {
     margin: 20px 0 30px;
@@ -249,10 +333,30 @@ a:hover {
     line-height: 1.6;
 }
 
+
+/* ---------- Responsive ---------- */
+
 @media (max-width: 700px) {
-    .comprendre-grid {
-        grid-template-columns: 1fr;
+
+    .comprendre-view-switcher {
+        gap: 4px;
+        overflow-x: auto;
     }
+
+    .comprendre-view-button {
+        padding: 9px 12px;
+        white-space: nowrap;
+    }
+
+    .comprendre-chapter-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .comprendre-card {
+        padding: 15px 16px;
+    }
+
 }
 /* ============================================================
    CyberRepères — Page d'accueil
@@ -474,4 +578,14 @@ a:hover {
     .home-hero h1 {
         font-size: 1.6rem;
     }
+}
+/* ============================================================
+   Mermaid — Diagrammes
+   ============================================================ */
+
+.mermaid {
+    width: 100%;
+    margin: 2rem auto;
+    overflow-x: auto;
+    text-align: center;
 }

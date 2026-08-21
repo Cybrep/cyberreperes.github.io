@@ -6,59 +6,114 @@ description: "Notions, acteurs et concepts pour comprendre la cybersécurité et
 nav: true
 nav_order: 10
 ---
-# Comprendre la cybersécurité industrielle
-<div class="catalogue-intro catalogue-intro-comprendre">
+{% include comprendre-header.html %}
 
-  <div class="catalogue-intro-label">
-    COMPRENDRE
-  </div>
+<div class="comprendre-view-switcher"> <button class="comprendre-view-button active" type="button" data-view="parcours"> Parcours </button> <button class="comprendre-view-button" type="button" data-view="recentes"> Dernières publications </button> </div>
 
-  <div class="catalogue-intro-content">
-    <p>
-La cybersécurité fait appel à de nombreuses notions, à des métiers et à des concepts qui peuvent parfois sembler abstraits. Cette rubrique présente les notions nécessaires pour comprendre les démarches de cybersécurité, particulièrement dans les environnements industriels.
-    </p>
+{% assign pages_comprendre = site.pages
+| where_exp: "page", "page.path contains 'comprendre/'"
+%}
 
-    <p>
-L'objectif n'est pas de constituer un cours complet de cybersécurité, mais de donner les <strong>repères nécessaires pour comprendre les référentiels, les méthodes et les pratiques</strong> présentés sur CyberRepères.
-    </p>
-  </div>
+{% assign pages_editorial = pages_comprendre
+| sort: "order"
+%}
 
-</div>
-
-## Notions et acteurs
-
-<div class="comprendre-grid">
+{% assign pages_recentes = pages_comprendre
+| sort: "date"
+| reverse
+%}
 
 {% assign pages_comprendre = site.pages
   | where_exp: "page", "page.path contains 'comprendre/'"
-  | sort: "title"
+  | where_exp: "page", "page.path != 'comprendre/index.md'"
+  | where_exp: "page", "page.order"
 %}
 
-{% for page in pages_comprendre %}
-  {% unless page.path == "comprendre/index.md" %}
+{% assign pages_editorial = pages_comprendre
+  | sort: "order"
+%}
 
-  <a class="comprendre-card" href="{{ page.url | relative_url }}">
-    <span class="comprendre-card-title">{{ page.title }} →</span>
-    {% if page.description %}
-    <span class="comprendre-card-description">{{ page.description }}</span>
+{% assign pages_recentes = pages_comprendre
+  | sort: "date"
+  | reverse
+%}
+
+
+<div class="comprendre-grid" data-view-container="parcours">
+
+  {% assign current_chapter = "" %}
+
+  {% for page in pages_editorial %}
+
+    {% if page.chapter != current_chapter %}
+
+      {% if current_chapter != "" %}
+        </div>
+      {% endif %}
+
+      <div class="comprendre-chapter">
+        <h3 class="comprendre-chapter-title">{{ page.chapter }}</h3>
+      </div>
+
+      <div class="comprendre-chapter-grid">
+
+      {% assign current_chapter = page.chapter %}
+
     {% endif %}
-  </a>
 
-  {% endunless %}
+    <a class="comprendre-card" href="{{ page.url | relative_url }}">
+      <span class="comprendre-card-title">{{ page.title }} →</span>
+
+      {% if page.description %}
+      <span class="comprendre-card-description">
+        {{ page.description }}
+      </span>
+      {% endif %}
+    </a>
+
+  {% endfor %}
+
+  {% if current_chapter != "" %}
+    </div>
+  {% endif %}
+
+</div>
+
+<div class="comprendre-grid" data-view-container="recentes" style="display: none;">
+
+{% for page in pages_recentes %}
+{% unless page.path == "comprendre/index.md" %}
+
+<a class="comprendre-card" href="{{ page.url | relative_url }}">
+  <span class="comprendre-card-title">{{ page.title }} →</span>
+  {% if page.description %}
+  <span class="comprendre-card-description">{{ page.description }}</span>
+  {% endif %}
+  {% if page.date %}
+  <span class="comprendre-card-date">
+    {{ page.date | date: "%d/%m/%Y" }}
+  </span>
+  {% endif %}
+</a>
+
+{% endunless %}
+
 {% endfor %}
 
 </div>
 
-## À venir
+À venir
 
 <div class="comprendre-coming">
 
 Cette rubrique sera progressivement enrichie avec notamment :
 
-- IT et OT
-- systèmes industriels
-- risque, menace et vulnérabilité
-- actifs et périmètres
-- défense en profondeur
+IT et OT
+systèmes industriels
+risque, menace et vulnérabilité
+actifs et périmètres
+défense en profondeur
 
 </div>
+
+<script> document.addEventListener("DOMContentLoaded", function () { const buttons = document.querySelectorAll(".comprendre-view-button"); const views = document.querySelectorAll("[data-view-container]"); buttons.forEach(function (button) { button.addEventListener("click", function () { const selectedView = button.dataset.view; buttons.forEach(function (item) { item.classList.remove("active"); }); button.classList.add("active"); views.forEach(function (view) { view.style.display = view.dataset.viewContainer === selectedView ? "" : "none"; }); }); }); }); </script>

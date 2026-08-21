@@ -11,8 +11,16 @@ tags:
   - systèmes cyber-physiques
   - cybersécurité industrielle
   - biomédical
+date: 2026-08-11
+revision: 2026-08-21
+chapter: "Fondamentaux"
+order: 10
 ---
+<!--
+21/08/2026 : remise en page
 
+
+-->
 # OT : comprendre les technologies opérationnelles
 
 **OT** signifie *Operational Technology*, généralement traduit en français par **technologies opérationnelles**.
@@ -77,8 +85,8 @@ Le terme OT recouvre de nombreuses technologies. Dans l'industrie, on retrouve n
 - **systèmes instrumentés de sécurité**
 - **postes d'ingénierie et de maintenance**
 
+L'ensemble de ces composants peut constituer un ICS (*Industrial Control System*) ou, selon le contexte, un IACS (*Industrial Automation and Control System*). Ces termes ne sont pas strictement interchangeables. OT est un terme large. ICS et IACS désignent plus spécifiquement des ensembles de systèmes de contrôle et d'automatisation industriels.
 
-> L'ensemble de ces composants peut constituer un ICS (*Industrial Control System*) ou, selon le contexte, un IACS (*Industrial Automation and Control System*). Ces termes ne sont pas strictement interchangeables. OT est un terme large. ICS et IACS désignent plus spécifiquement des ensembles de systèmes de contrôle et d'automatisation industriels.
 ---
 
 ## OT ne signifie pas uniquement « industrie »
@@ -98,11 +106,17 @@ L'objectif n'est pas de considérer que tous ces environnements sont identiques.
 Ils possèdent leurs propres architectures, réglementations, métiers, contraintes et référentiels.
 
 En revanche, certaines questions de cybersécurité sont communes :
+
 > **Que se passe-t-il si le système s'arrête ?**
+
 > **Que se passe-t-il si son fonctionnement est modifié ?**
+
 > **Peut-on appliquer un correctif sans interrompre le service ?**
+
 > **Qui peut intervenir sur l'équipement ?**
+
 > **Qui valide une modification ?**
+
 Ces questions constituent un terrain commun entre différents domaines.
 
 ---
@@ -335,19 +349,3 @@ Les environnements sont différents, mais les questions fondamentales peuvent pa
 **Peut-on arrêter ? Peut-on modifier ? Peut-on mettre à jour ? Qui peut intervenir ? Et quelles sont les conséquences si le système ne fonctionne plus comme prévu ?**
 La cybersécurité OT doit donc prendre en compte **la technologie, le procédé, les personnes, le cycle de vie, les fournisseurs et surtout les conséquences possibles d'un dysfonctionnement ou d'une compromission.**
 
----
-<!--
-## Sources
-
-
-À compléter avec les sources utilisées pour cette fiche.
-
-Privilégier les sources primaires et les organismes de référence.
-
-Distinguer autant que possible :
-- définition ou information issue d'une source ;
-- synthèse CyberRepères ;
-- interprétation ou comparaison entre secteurs.
--->
-
-- 

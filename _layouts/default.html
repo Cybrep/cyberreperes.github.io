@@ -402,5 +402,28 @@
   des repères pour agir.
 </footer>
 
+<!-- Mermaid : rendu des diagrammes définis dans les fichiers Markdown -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'default'
+    });
+
+    document.querySelectorAll('code.language-mermaid').forEach((code) => {
+      const container = document.createElement('div');
+      container.className = 'mermaid';
+      container.textContent = code.textContent;
+
+      const pre = code.closest('pre');
+      if (pre) {
+        pre.replaceWith(container);
+      }
+    });
+
+    mermaid.run();
+  </script>
+
 </body>
 </html>

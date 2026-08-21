@@ -1,0 +1,7 @@
+:::intro comprendre
+
+La cybersécurité fait appel à de nombreuses notions, à des métiers et à des concepts qui peuvent parfois sembler abstraits. Cette rubrique présente les notions nécessaires pour comprendre les démarches de cybersécurité, particulièrement dans les environnements industriels.
+
+L'objectif n'est pas de constituer un cours complet de cybersécurité, mais de donner les **repères nécessaires pour comprendre les référentiels, les méthodes et les pratiques** présentés sur CyberRepères.
+
+:::

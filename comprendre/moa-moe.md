@@ -9,6 +9,10 @@ tags:
   - projet
   - sous-traitance
   - cybersécurité industrielle
+date: 2026-08-19
+revision: 2026-08-19
+chapter: "Fondamentaux"
+order: 10
 ---
 
 # MOA et MOE : comprendre les rôles dans un projet
