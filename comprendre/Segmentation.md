@@ -15,6 +15,7 @@ date: 2026-08-21
 revision: 2026-08-21
 chapter: "Architecture"
 order: 30
+comments: true
 ---
 ## Segmentation Réseau
 
