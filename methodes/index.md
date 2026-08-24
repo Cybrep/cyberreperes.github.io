@@ -11,7 +11,7 @@ nav_order: 30
 
 {% include methodes-header.md %}
 
-**18 entrées** · **6 catégories**
+**19 entrées** · **6 catégories**
 
 📥 [Télécharger le catalogue Excel]({{ site.baseurl }}/downloads/CyberReperes_Catalogue_Methodes.xlsx)
 
@@ -200,6 +200,22 @@ nav_order: 30
         <p><strong>Source officielle :</strong> <a href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener">https://www.cert.ssi.gouv.fr/</a></p>
       </div>
     </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div class="catalogue-ref"><strong>VUL-006</strong></div>
+        <div><a class="catalogue-tool-link" href="https://www.vulnerability-lookup.org/" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de Computer Incident Response Center Luxembourg">Computer Incident Response Center Luxembourg ↗</a></div>
+        <div>Agrégateur de sources de différents acteurs IT mais surtout OT</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>Organisme :</strong> CIRCL</p>
+        <p><strong>Usage :</strong> Veille sur les vulnérabilités</p>
+        <p><strong>Périmètre :</strong> IT / OT</p>
+        <p><strong>Données / sortie :</strong> Alertes, bulletin sur les vuln.</p>
+        <p><strong>Version / état :</strong> Catalogue vivant</p>
+        <p><strong>Notes CyberRepères :</strong> Top pour l’OT, perso je préconise !</p>
+        <p><strong>Source officielle :</strong> <a href="https://www.vulnerability-lookup.org/" target="_blank" rel="noopener">https://www.vulnerability-lookup.org/</a></p>
+      </div>
+    </details>
   </div>
 </section>
 <section class="catalogue-section">
@@ -318,7 +334,7 @@ nav_order: 30
     <details class="catalogue-entry">
       <summary class="catalogue-row">
         <div class="catalogue-ref"><strong>EVA-004</strong></div>
-        <div>Cybersecurity Performance Goals (CPGs)</div>
+        <div><a class="catalogue-tool-link" href="https://www.cisa.gov/cross-sector-cybersecurity-performance-goals/cross-sector-cybersecurity-performance-goals" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de Cybersecurity Performance Goals (CPGs)">Cybersecurity Performance Goals (CPGs) ↗</a></div>
         <div>Socle de pratiques prioritaires de cybersécurité</div>
       </summary>
       <div class="catalogue-detail">
@@ -326,10 +342,10 @@ nav_order: 30
         <p><strong>Périmètre :</strong> IT / OT / Infra critique</p>
         <p><strong>Usage :</strong> Objectifs et pratiques prioritaires</p>
         <p><strong>Type :</strong> Pas un modèle de maturité classique</p>
-        <p><strong>Version / état :</strong> Ressource web</p>
+        <p><strong>Version / état :</strong> Version vivante</p>
         <p><strong>Notes CyberRepères :</strong> <a href="https://www.cisa.gov/cybersecurity-performance-goals" target="_blank" rel="noopener">https://www.cisa.gov/cybersecurity-performance-goals</a></p>
         <p><strong> :</strong> À ne pas présenter comme un modèle de maturité au même titre que C2M2.</p>
-        <p><strong>Source officielle :</strong> Évolutif</p>
+        <p><strong>Source officielle :</strong> <a href="https://www.cisa.gov/cross-sector-cybersecurity-performance-goals/cross-sector-cybersecurity-performance-goals" target="_blank" rel="noopener">https://www.cisa.gov/cross-sector-cybersecurity-performance-goals/cross-sector-cybersecurity-performance-goals</a></p>
       </div>
     </details>
   </div>
