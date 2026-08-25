@@ -55,16 +55,15 @@ nav_order: 30
     <details class="catalogue-entry">
       <summary class="catalogue-row">
         <div class="catalogue-ref"><strong>THR-003</strong></div>
-        <div>CERT-FR</div>
+        <div><a class="catalogue-tool-link" href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de CERT-FR">CERT-FR ↗</a></div>
         <div>État de la menace au travers de bulletins du CERT-FR</div>
       </summary>
       <div class="catalogue-detail">
         <p><strong>Organisme :</strong> CERT-FR</p>
-        <p><strong>Périmètre :</strong> Priorisation et réduction de l&#x27;exposition</p>
-        <p><strong>Usage :</strong> IT / OT</p>
-        <p><strong>Version / état :</strong> Alertes en cours, Avis de Sécurité, IOC, bulletin d’actualité</p>
-        <p><strong>Notes CyberRepères :</strong> <a href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener">https://www.cert.ssi.gouv.fr/</a></p>
-        <p><strong>Source officielle :</strong> Catalogue vivant</p>
+        <p><strong>Périmètre :</strong> IT / OT</p>
+        <p><strong>Usage :</strong> Alertes en cours, Avis de Sécurité, IOC, bulletin d’actualité</p>
+        <p><strong>Version / état :</strong> Catalogue vivant</p>
+        <p><strong>Source officielle :</strong> <a href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener">https://www.cert.ssi.gouv.fr/</a></p>
       </div>
     </details>
   </div>
@@ -102,7 +101,7 @@ nav_order: 30
       </summary>
       <div class="catalogue-detail">
         <p><strong>Organisme :</strong> CISA</p>
-        <p><strong>Périmètre :</strong> IT / OT / CNI</p>
+        <p><strong>Périmètre :</strong> IT / OT / Infra critique</p>
         <p><strong>Domaines / structure :</strong> Objectifs et pratiques prioritaires</p>
         <p><strong>Niveau / échelle :</strong> Pas un modèle de maturité classique</p>
         <p><strong>Outil disponible :</strong> Ressource web</p>
