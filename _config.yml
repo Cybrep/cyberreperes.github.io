@@ -10,3 +10,6 @@ theme: minima
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+exclude:
+  - tmp

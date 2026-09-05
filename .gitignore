@@ -15,3 +15,6 @@ catalogues/
 # Fichiers système / éditeur
 *~
 .DS_Store
+
+# Travaux temporaires / expérimentation
+tmp/

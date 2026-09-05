@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   {% seo %}
+
   <!-- Identité visuelle CyberRepères -->
   <link rel="icon" type="image/png"
       sizes="32x32"
@@ -19,280 +21,9 @@
 
   <link rel="shortcut icon"
       href="{{ '/assets/images/cyberreperes-favicon.ico' | relative_url }}">
-  <style>
-    body {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 20px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-      color: #222;
-      background: #fff;
-    }
 
-    header {
-      border-bottom: 0;
-      padding: 25px 0 15px;
-      margin-bottom: 10px;
-    }
-    .main-nav {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background: #fff;
-      padding: 10px 0;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .site-description {
-      margin: 3px 0 20px;
-      color: #666;
-    }
-    /* Identité visuelle CyberRepères */
-
-    .site-brand {
-      display: block;
-      margin-bottom: 20px;
-      text-decoration: none;
-    }
-
-    .site-brand img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-    .site-brand-mobile {
-      display: none;
-    }
-
-    .site-brand-banner {
-      border-radius: 10px;
-    }
-
-    /* Version mobile */
-    @media (max-width: 700px) {
-      .site-brand-desktop {
-        display: none;
-      }
-
-      .site-brand-mobile {
-        display: block;
-        max-width: 100%;
-      }
-
-      .site-brand-mobile img {
-        width: 100%;
-        max-width: 420px;
-        height: auto;
-        margin: 0 auto;
-      }
-
-      header {
-        padding-top: 15px;
-        margin-bottom: 10px;
-      }
-    }
-    nav a {
-      margin-right: 18px;
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .breadcrumb {
-         margin: 0 0 10px;
-         font-size: 0.9rem;
-         color: #777;
-    }
-
-    h1 {
-      margin-top: 5px;
-    }
-
-    .breadcrumb a {
-      margin-right: 6px;
-      color: #666;
-      text-decoration: none;
-    }
-
-    .breadcrumb a:hover {
-      text-decoration: underline;
-    }
-
-    .breadcrumb span {
-      margin-right: 6px;
-    }
-    /* Catalogue de références */
-    .catalogue-table {
-      margin: 25px 0;
-      width: 100%;
-    }
-
-    .catalogue-header,
-    .catalogue-row {
-      display: grid;
-      grid-template-columns: 120px minmax(280px, 2fr) 120px 120px 120px 70px 55px;
-      gap: 12px;
-      align-items: center;
-    }
-
-    /* Catalogue Outils : donner davantage d'espace à la colonne Objet */
-    .catalogue-tools-table .catalogue-header,
-    .catalogue-tools-table .catalogue-row {
-     grid-template-columns: 100px minmax(220px, 1fr) minmax(450px, 3fr);
-    }
-
-    /* Catalogue Normes : donner davantage d'espace à la colonne Description */
-    .catalogue-normes-table .catalogue-header,
-    .catalogue-normes-table .catalogue-row {
-    grid-template-columns: minmax(220px, 15%) minmax(0, 85%);
-    }
-
-    .catalogue-normes-table .catalogue-row > div:first-child {
-      white-space: nowrap;
-    }
-
-    .catalogue-normes-table .catalogue-row > div:last-child {
-      min-width: 0;
-    }
-
-    .catalogue-header {
-      padding: 10px 12px;
-      background: #f5f5f5;
-      border-bottom: 2px solid #ddd;
-      font-weight: 600;
-    }
-
-    .catalogue-entry {
-      border-bottom: 1px solid #ddd;
-    }
-
-    .catalogue-row {
-      padding: 10px 12px;
-      cursor: pointer;
-    }
-
-    .catalogue-row:hover {
-      background: #f8f8f8;
-    }
-
-    .catalogue-row::-webkit-details-marker {
-      display: none;
-    }
-
-    .catalogue-ref {
-      color: #333;
-    }
-
-    .catalogue-ref strong::before {
-      content: "▶";
-      display: inline-block;
-      width: 1.2em;
-      font-size: 0.75em;
-      color: #777;
-    }
-
-    .catalogue-entry[open] .catalogue-ref strong::before {
-      content: "▼ ";
-    }
-
-    .catalogue-detail {
-      margin: 0 12px 15px;
-      padding: 15px 20px;
-      background: #f8f8f8;
-      border-left: 3px solid #ddd;
-      line-height: 1.5;
-    }
-
-    .catalogue-detail p {
-      margin: 8px 0;
-    }
-
-    .catalogue-detail ul {
-      margin: 8px 0 12px 20px;
-    }
-
-    .catalogue-detail a {
-      color: #555;
-    }
-
-    @media (max-width: 900px) {
-      .catalogue-header {
-        display: none;
-      }
-
-      .catalogue-row {
-        display: block;
-        padding: 12px;
-      }
-
-      .catalogue-row span {
-        display: inline;
-        margin-right: 12px;
-      }
-
-      .catalogue-row .catalogue-ref {
-        display: block;
-        margin-bottom: 5px;
-      }
-
-      .catalogue-detail {
-        margin: 0 8px 12px;
-        padding: 12px 15px;
-      }
-    }
-
-    main {
-      margin-bottom: 50px;
-      padding-top: 30px;
-      border-top: 1px solid #ddd;
-    }
-
-    footer {
-      border-top: 1px solid #ddd;
-      padding: 20px 0;
-      margin-top: 50px;
-      color: #777;
-      font-size: 0.9rem;
-    }
-
-    h1, h2, h3 {
-      line-height: 1.25;
-    }
-
-    pre {
-      padding: 15px;
-      overflow-x: auto;
-      background: #f5f5f5;
-      border-radius: 5px;
-    }
-
-    code {
-      font-family: monospace;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 20px 0;
-    }
-
-    th, td {
-      border: 1px solid #ddd;
-      padding: 8px 10px;
-      text-align: left;
-    }
-
-    th {
-      background: #f5f5f5;
-    }
-  </style>
-  <link rel="stylesheet" href="{{ '/assets/css/cyberreperes.css' | relative_url }}">
+  <link rel="stylesheet"
+      href="{{ '/assets/css/cyberreperes.css' | relative_url }}">
 </head>
 
 <body>
@@ -372,12 +103,31 @@
 {% endunless %}
 
 <main>
-  {{ content }}
+
+  <div class="cr-reading-layout">
+
+    <article class="cr-reading-content">
+      {{ content }}
+    </article>
+
+    <aside class="cr-reading-nav" aria-label="Navigation dans la page">
+      <div class="cr-reading-nav-inner">
+        <div class="cr-reading-nav-label">
+          DANS CETTE PAGE
+        </div>
+
+        <nav class="cr-reading-toc" aria-label="Sommaire de la page"></nav>
+
+        <div class="cr-reading-progress" aria-hidden="true">
+          <span class="cr-reading-progress-bar"></span>
+        </div>
+      </div>
+    </aside>
+
+  </div>
 
   {% if page.comments %}
   <section class="comments" aria-label="Commentaires">
-    <h2>Commentaires</h2>
-
     <script src="https://giscus.app/client.js"
             data-repo="Cybrep/cyberreperes.github.io"
             data-repo-id="R_kgDOTyku7Q"
@@ -395,6 +145,14 @@
     </script>
   </section>
   {% endif %}
+
+  <button class="cr-back-to-top"
+          type="button"
+          aria-label="Retour en haut de la page">
+    <span aria-hidden="true">↑</span>
+    <span>HAUT</span>
+  </button>
+
 </main>
 
 <footer>
@@ -424,6 +182,8 @@
 
     mermaid.run();
   </script>
+
+  <script src="{{ '/assets/js/cyberreperes-navigation.js' | relative_url }}"></script>
 
 </body>
 </html>

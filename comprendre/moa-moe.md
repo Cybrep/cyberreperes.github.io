@@ -104,18 +104,20 @@ Elle peut préparer des cahiers des charges et consulter des entreprises spécia
 
 Ces entreprises peuvent alors intervenir comme **sous-traitants**.
 
-```text
-                    MOA
-                     │
-                     ▼
-                    MOE
-                     │
-          ┌──────────┼──────────┐
-          │          │          │
-          ▼          ▼          ▼
-      Terrassier    Maçon    Électricien
-      sous-traitant sous-traitant sous-traitant
-```
+<div class="mermaid">
+flowchart TD
+    MOA["MOA"]
+    MOE["MOE"]
+
+    T["Terrassier<br/>sous-traitant"]
+    M["Maçon<br/>sous-traitant"]
+    E["Électricien<br/>sous-traitant"]
+
+    MOA --> MOE
+    MOE --> T
+    MOE --> M
+    MOE --> E
+</div>
 
 ## Et si plusieurs entreprises s'associent ?
 
@@ -126,15 +128,19 @@ Une entreprise peut ne pas disposer seule de toutes les compétences nécessaire
 Imaginons que le terrassier et le maçon décident de répondre ensemble au marché.
 Ils peuvent alors devenir co-traitants plutôt que d'organiser la relation comme une sous-traitance du maçon vers le terrassier.
 
-```text
-                    MOE
-                     │
-             ┌───────┴───────┐
-             │               │
-          Maçon          Terrassier
-             │               │
-             └── Co-traitants
-```
+<div class="mermaid">
+flowchart TD
+    MOE["MOE"]
+
+    MACON["Maçon"]
+    TERRASSIER["Terrassier"]
+    COTRAITANTS["Co-traitants"]
+
+    MOE --> MACON
+    MOE --> TERRASSIER
+    MACON --> COTRAITANTS
+    TERRASSIER --> COTRAITANTS
+</div>
 
 Cette organisation permet notamment d'éviter certaines chaînes de sous-traitance successives.
 
@@ -145,19 +151,15 @@ Cette organisation permet notamment d'éviter certaines chaînes de sous-traitan
 Dans un projet industriel, le nombre d'acteurs peut rapidement devenir important.
 On peut retrouver :
 
-```text
-                         MOA
-                          │
-                          ▼
-                         MOE
-                          │
-             ┌────────────┼────────────┐
-             ▼            ▼            ▼
-        Intégrateur    Fournisseur   Entreprise
-             │                         │
-             ▼                         ▼
-        Sous-traitant             Sous-traitant
-```
+<div class="mermaid">
+flowchart TD
+    MOA --> MOE
+    MOE --> Intégrateur
+    MOE --> Fournisseur
+    MOE --> Entreprise
+    Intégrateur --> Sous-traitant1[Sous-traitant]
+    Entreprise --> Sous-traitant2[Sous-traitant]
+</div>
 
 Chaque niveau supplémentaire peut introduire :
 
@@ -175,30 +177,14 @@ La maîtrise de la chaîne de sous-traitance devient donc un **enjeu de cybersé
 Dans les projets industriels, les responsabilités des différents acteurs peuvent être représentées au travers du **cycle en V**.
 Le cycle en V permet notamment de représenter la progression d'un projet :
 
-```text
-Besoin
-  │
-  ▼
-Exigences
-  │
-  ▼
-Architecture
-  │
-  ▼
-Conception
-  │
-  ▼
-Réalisation
-  │
-  ▼
-Intégration
-  │
-  ▼
-Vérification
-  │
-  ▼
-Validation
-```
+<figure class="cr-diagram">
+    <img
+        src="{{ '/comprendre/images/MOA-MOE_CycleEnV.png' | relative_url }}"
+        alt="Modèle en V montrant les rôles de la MOA et de la MOE, de l'expression du besoin à la validation de la solution.">
+    <figcaption>
+        Modèle en V — articulation entre la MOA, la MOE et les phases du projet.
+    </figcaption>
+</figure>
 
 Le **CLUSIF**, dans son *Guide de la cybersécurité des systèmes industriels*, utilise notamment cette approche pour présenter le cycle en V et les missions des différents intervenants.
 
@@ -210,25 +196,24 @@ La cybersécurité ne peut pas être ajoutée uniquement à la fin d'un projet.
 Une expression de besoin comme : « Je veux un système industriel disponible et sécurisé. »
 doit progressivement être traduite en :
 
-```text
-Besoin
-   ↓
-Exigences de sécurité
-   ↓
-Architecture de sécurité
-   ↓
-Spécifications
-   ↓
-Choix des équipements
-   ↓
-Configuration
-   ↓
-Tests
-   ↓
-Preuves
-   ↓
-Validation
-```
+<div class="home-chain home-chain--vertical">
+    <span>Besoin</span>
+    <b>→</b>
+    <span>Exigences <br>de sécurité</span>
+    <b>→</b>
+    <span>Architecture <br>de sécurité</span>
+    <b>→</b>
+    <span>Choix des <br>équipements</span>
+    <b>→</b>
+    <span>Configuration</span>
+    <b>→</b>
+    <span>Tests</span>
+    <b>→</b>
+    <span>Preuves</span>
+    <b>→</b>
+    <span>Validation</span>
+</div>
+
 
 La cybersécurité devient ainsi une caractéristique du système à construire, et non simplement une série de contrôles réalisés à la fin du projet.
 

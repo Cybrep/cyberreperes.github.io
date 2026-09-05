@@ -103,6 +103,26 @@ def transform_blocks(text: str) -> str:
         variant = match.group("variant")
         body = match.group("body").strip()
 
+        if kind == "veille-header":
+            paragraphs = [
+                part.strip()
+                for part in re.split(r"\n\s*\n", body)
+                if part.strip()
+            ]
+
+            baseline = paragraphs[0] if paragraphs else ""
+            description = paragraphs[1] if len(paragraphs) > 1 else ""
+
+            return (
+                '<p class="veille-header-label">CYBERREPÈRES · VEILLE</p>\n\n'
+                '<p class="veille-header-baseline">\n'
+                f'{baseline}\n'
+                '</p>\n\n'
+                '<p class="veille-header-description">\n'
+                f'{description}\n'
+                '</p>'
+            )
+
         if kind == "intro":
             theme = variant or "home"
             if theme not in INTRO_THEMES:
