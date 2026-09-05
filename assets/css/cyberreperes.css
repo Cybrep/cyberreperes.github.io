@@ -1,5 +1,5 @@
 /* ============================================================
-   CyberRepères — Identité visuelle
+   CyberRepères — Identité visuelle C
    Documentation d'ingénierie
    ============================================================ */
 
@@ -1119,7 +1119,7 @@ a:hover {
 .home-chain {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     gap: 0;
     margin: 32px 0 38px;
@@ -1135,8 +1135,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     min-height: 64px;
-    min-width: 105px;
-    padding: 13px 15px;
+    flex: 0 0 85px;
+    padding: 3px 3px;
     border: 1px solid #9CCFF0;
     border-radius: 3px;
     background: var(--cr-background);
@@ -1178,27 +1178,23 @@ a:hover {
 
 .home-chain b {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 0 0 44px;
-    height: 64px;
-    padding: 0;
-    color: var(--cr-navy);
-    font-size: 1.35rem;
-    font-weight: 400;
-    line-height: 1;
-    text-shadow: 0 0 0 var(--cr-background);
+    flex: 0 0 36px;
+    height: 1px;
+    margin: 0 6px;
+    background: #9CCFF0;
+    font-size: 0;
 }
 
-.home-chain b::before,
 .home-chain b::after {
     content: "";
     position: absolute;
+    right: 0;
     top: 50%;
-    width: 12px;
-    height: 1px;
-    background: var(--cr-border-strong);
+    width: 7px;
+    height: 7px;
+    border-top: 1px solid var(--cr-navy);
+    border-right: 1px solid var(--cr-navy);
+    transform: translateY(-50%) rotate(45deg);
 }
 
 .home-chain b::before {
@@ -2038,3 +2034,4 @@ a:hover {
         bottom: 14px;
     }
 }
+
