@@ -200,7 +200,104 @@ th {
     background: var(--cr-surface);
 }
 
+/* =========================================================
+   REPÈRES ÉDITORIAUX — > / >> / >>>
+   ---------------------------------------------------------
+   Le niveau indique uniquement le degré d'emphase.
+   ========================================================= */
 
+/* ---------------------------------------------------------
+   Niveau 1 : >
+   --------------------------------------------------------- */
+
+blockquote {
+  position: relative;
+
+  margin: 28px 0;
+  padding: 16px 22px;
+
+  background: #F4F8FC;
+
+  border-top: 1px solid var(--cr-blue);
+  border-bottom: 1px solid var(--cr-border);
+
+  color: var(--cr-text);
+  line-height: 1.65;
+}
+
+
+/* Marqueur supérieur */
+blockquote::before {
+  content: "";
+
+  position: absolute;
+  top: -1px;
+  left: 0;
+
+  width: 42px;
+  height: 3px;
+
+  background: var(--cr-blue);
+}
+
+
+/* ---------------------------------------------------------
+   Niveau 2 : >>
+   --------------------------------------------------------- */
+
+blockquote:has(> blockquote) {
+  background: #EFF9F7;
+
+  border-top: 2px solid var(--cr-turquoise);
+  border-bottom: 1px solid var(--cr-border-strong);
+}
+
+blockquote:has(> blockquote)::before {
+  width: 64px;
+  height: 4px;
+
+  background: var(--cr-turquoise);
+}
+
+
+/* ---------------------------------------------------------
+   Niveau 3 : >>>
+   --------------------------------------------------------- */
+
+blockquote:has(> blockquote > blockquote) {
+  background: #EDF2F8;
+
+  border-top: 2px solid var(--cr-navy);
+  border-bottom: 2px solid var(--cr-navy);
+}
+
+blockquote:has(> blockquote > blockquote)::before {
+  width: 86px;
+  height: 4px;
+
+  background: var(--cr-navy);
+}
+
+
+/* ---------------------------------------------------------
+   Gestion des blockquotes imbriqués
+   ---------------------------------------------------------
+   Le navigateur ne doit pas afficher plusieurs cadres
+   les uns dans les autres.
+   --------------------------------------------------------- */
+
+blockquote blockquote {
+  margin: 0;
+  padding: 0;
+
+  background: transparent;
+
+  border: 0;
+}
+
+blockquote blockquote::before {
+  display: none;
+}
 /* ============================================================
    NAVIGATION DE LECTURE — PAGES LONGUES
    ============================================================ */
