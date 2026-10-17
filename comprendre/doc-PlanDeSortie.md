@@ -11,8 +11,8 @@ tags:
   - Gestions des tiers
   - cybersécurité industrielle
   - Gouvernance
-date: 2026-10-21
-revision: 2026-10-21
+date: 2026-10-14
+revision: 2026-10-14
 chapter: "Documentation"
 order: 40
 comments: true
