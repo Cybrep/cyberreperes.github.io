@@ -11,7 +11,7 @@ nav_order: 40
 
 {% include normes-header.md %}
 
-**104 normes** · **8 familles**
+**111 normes** · **9 familles**
 
 📥 [Télécharger le catalogue Excel]({{ site.baseurl }}/downloads/CyberReperes_Catalogue_Normes.xlsx)
 
@@ -1140,7 +1140,7 @@ nav_order: 40
   </div>
 </section>
 <section class="catalogue-section">
-  <h2>IEC-ISA 62443</h2>
+  <h2>IEC-62443 - ISA 99</h2>
   <div class="catalogue-table catalogue-normes-table">
     <div class="catalogue-header">
       <div>Norme</div>
@@ -1342,6 +1342,141 @@ nav_order: 40
         <p><strong>Langue :</strong> EN</p>
         <p><strong>Références liées :</strong> IEC 62443-4-2; IEC 62443-4-1</p>
         <p><strong>Notes CyberReperes :</strong> À utiliser pour évaluer les capacités de sécurité d&#x27;un composant IACS. La méthodologie suppose un cycle de développement sécurisé conforme à l&#x27;IEC 62443-4-1 ; elle ne définit pas à elle seule un schéma complet de certification.</p>
+      </div>
+    </details>
+  </div>
+</section>
+<section class="catalogue-section">
+  <h2>IEC 62264 - ISA-95</h2>
+  <div class="catalogue-table catalogue-normes-table">
+    <div class="catalogue-header">
+      <div>Norme</div>
+      <div>Description</div>
+    </div>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://committee.iso.org/committee/54192/x/catalogue/" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62264 / ISA-95">IEC 62264 / ISA-95 ↗</a></div>
+        <div>Intégration des systèmes entreprise-contrôle</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62264</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Intégration IT/OT</p>
+        <p><strong>Périmètre :</strong> Intégration des fonctions d&#x27;entreprise et des opérations de fabrication</p>
+        <p><strong>Contexte :</strong> IT / OT</p>
+        <p><strong>Utilisation :</strong> Référentiel de modèles et de terminologie pour structurer les échanges entre systèmes d&#x27;entreprise et systèmes de contrôle</p>
+        <p><strong>Version / état :</strong> Famille</p>
+        <p><strong>Langue :</strong> FR/EN</p>
+        <p><strong>Références liées :</strong> ISA-95; IEC 62443; IEC 61512</p>
+        <p><strong>Notes CyberReperes :</strong> Famille normative dédiée à l&#x27;intégration entreprise-contrôle. ISA-95 est l&#x27;appellation couramment utilisée pour les travaux ISA correspondants ; ce n&#x27;est pas une partie IEC distincte.</p>
+      </div>
+    </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/6675" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62264-1:2013">IEC 62264-1:2013 ↗</a></div>
+        <div>Intégration des systèmes entreprise-contrôle — Partie 1 : Modèles et terminologie</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62264-1</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Intégration IT/OT</p>
+        <p><strong>Périmètre :</strong> Modèles fonctionnels, hiérarchies et terminologie ; domaine MOM (niveau 3) et interfaces avec le niveau 4</p>
+        <p><strong>Contexte :</strong> IT / OT / MOM</p>
+        <p><strong>Utilisation :</strong> Définir les modèles et le vocabulaire communs pour l&#x27;intégration des opérations de fabrication et des fonctions d&#x27;entreprise</p>
+        <p><strong>Version / état :</strong> 2013 (édition 2, valide)</p>
+        <p><strong>Langue :</strong> FR/EN</p>
+        <p><strong>Références liées :</strong> 62264-2; 62264-3; 62264-5</p>
+        <p><strong>Notes CyberReperes :</strong> Référence structurante pour comprendre les niveaux fonctionnels et les échanges entre systèmes de production et systèmes d&#x27;entreprise. Pas une norme de cybersécurité.</p>
+      </div>
+    </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/75127" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62264-2:2026">IEC 62264-2:2026 ↗</a></div>
+        <div>Intégration des systèmes entreprise-contrôle — Partie 2 : Modèles d&#x27;objets et relations pour les interfaces entre opérations de fabrication et fonctions d&#x27;entreprise</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62264-2</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Intégration IT/OT</p>
+        <p><strong>Périmètre :</strong> Modèles d&#x27;objets, attributs et relations d&#x27;interface</p>
+        <p><strong>Contexte :</strong> IT / OT / MOM</p>
+        <p><strong>Utilisation :</strong> Structurer les objets et relations utilisés pour les échanges entre les opérations de fabrication et les fonctions d&#x27;entreprise</p>
+        <p><strong>Version / état :</strong> 2026 (édition 3)</p>
+        <p><strong>Langue :</strong> FR/EN</p>
+        <p><strong>Références liées :</strong> 62264-1; 62264-3; 62264-4; 62264-5</p>
+        <p><strong>Notes CyberReperes :</strong> La nouvelle édition 2026 remplace l&#x27;édition 2015. Vérifier la disponibilité linguistique et les éventuelles adoptions nationales avant achat.</p>
+      </div>
+    </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/33511" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62264-3:2016">IEC 62264-3:2016 ↗</a></div>
+        <div>Intégration des systèmes entreprise-contrôle — Partie 3 : Modèles d&#x27;activités pour la gestion des opérations de fabrication</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62264-3</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Intégration IT/OT</p>
+        <p><strong>Périmètre :</strong> Modèles d&#x27;activités de gestion des opérations de fabrication (MOM)</p>
+        <p><strong>Contexte :</strong> OT / MOM</p>
+        <p><strong>Utilisation :</strong> Décrire les activités et modèles fonctionnels de la gestion des opérations de fabrication</p>
+        <p><strong>Version / état :</strong> 2016 (édition 2)</p>
+        <p><strong>Langue :</strong> FR/EN</p>
+        <p><strong>Références liées :</strong> 62264-1; 62264-2</p>
+        <p><strong>Notes CyberReperes :</strong> Particulièrement utile pour comprendre le périmètre fonctionnel d&#x27;un MES/MOM et ses activités.</p>
+      </div>
+    </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/23943" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62264-4:2015">IEC 62264-4:2015 ↗</a></div>
+        <div>Intégration des systèmes entreprise-contrôle — Partie 4 : Modèles d&#x27;objets et attributs pour l&#x27;intégration de la gestion des opérations de fabrication</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62264-4</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Intégration IT/OT</p>
+        <p><strong>Périmètre :</strong> Objets et attributs pour l&#x27;intégration MOM</p>
+        <p><strong>Contexte :</strong> OT / MOM</p>
+        <p><strong>Utilisation :</strong> Décrire les objets et attributs nécessaires à l&#x27;intégration des activités de gestion des opérations de fabrication</p>
+        <p><strong>Version / état :</strong> 2015 (édition 1)</p>
+        <p><strong>Langue :</strong> EN</p>
+        <p><strong>Références liées :</strong> 62264-2; 62264-3</p>
+        <p><strong>Notes CyberReperes :</strong> Complément de modélisation pour les échanges et l&#x27;intégration des systèmes MOM.</p>
+      </div>
+    </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/25465" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62264-5:2016">IEC 62264-5:2016 ↗</a></div>
+        <div>Intégration des systèmes entreprise-contrôle — Partie 5 : Transactions entre systèmes d&#x27;entreprise et systèmes de fabrication</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62264-5</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Intégration IT/OT</p>
+        <p><strong>Périmètre :</strong> Transactions métier-fabrication</p>
+        <p><strong>Contexte :</strong> IT / OT / MOM</p>
+        <p><strong>Utilisation :</strong> Décrire les transactions et échanges entre les systèmes d&#x27;entreprise et les systèmes de fabrication</p>
+        <p><strong>Version / état :</strong> 2016 (édition 2)</p>
+        <p><strong>Langue :</strong> EN</p>
+        <p><strong>Références liées :</strong> 62264-1; 62264-2; 62264-3</p>
+        <p><strong>Notes CyberReperes :</strong> Utile pour analyser les flux fonctionnels et les échanges entre ERP et systèmes de fabrication.</p>
+      </div>
+    </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/59706" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62264-6:2020">IEC 62264-6:2020 ↗</a></div>
+        <div>Intégration des systèmes entreprise-contrôle — Partie 6 : Modèle de services de messagerie</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62264-6</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Intégration IT/OT</p>
+        <p><strong>Périmètre :</strong> Services de messagerie pour les échanges entreprise-contrôle</p>
+        <p><strong>Contexte :</strong> IT / OT / MOM</p>
+        <p><strong>Utilisation :</strong> Décrire un modèle de services de messagerie pour les échanges entre systèmes d&#x27;entreprise et systèmes de contrôle</p>
+        <p><strong>Version / état :</strong> 2020 (édition 1)</p>
+        <p><strong>Langue :</strong> EN</p>
+        <p><strong>Références liées :</strong> 62264-1; 62264-2; 62264-5</p>
+        <p><strong>Notes CyberReperes :</strong> Complément technique relatif aux services de messagerie ; à considérer selon les architectures et mécanismes d&#x27;intégration étudiés.</p>
       </div>
     </details>
   </div>
