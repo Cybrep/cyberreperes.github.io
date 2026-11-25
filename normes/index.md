@@ -11,7 +11,7 @@ nav_order: 40
 
 {% include normes-header.md %}
 
-**102 normes** · **8 familles**
+**104 normes** · **8 familles**
 
 📥 [Télécharger le catalogue Excel]({{ site.baseurl }}/downloads/CyberReperes_Catalogue_Normes.xlsx)
 
@@ -1148,7 +1148,7 @@ nav_order: 40
     </div>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-1-1">IEC 62443-1-1 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/7029" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-1-1">IEC 62443-1-1 ↗</a></div>
         <div>Concepts et modèles</div>
       </summary>
       <div class="catalogue-detail">
@@ -1166,7 +1166,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-2-1">IEC 62443-2-1 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/62883" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-2-1">IEC 62443-2-1 ↗</a></div>
         <div>Exigences de sécurité pour les propriétaires d&#x27;actifs IACS</div>
       </summary>
       <div class="catalogue-detail">
@@ -1184,7 +1184,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC/TR 62443-2-2">IEC/TR 62443-2-2 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/63886" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC/TR 62443-2-2">IEC/TR 62443-2-2 ↗</a></div>
         <div>Security Protection Scheme</div>
       </summary>
       <div class="catalogue-detail">
@@ -1202,7 +1202,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-2-3">IEC 62443-2-3 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/22811" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-2-3">IEC 62443-2-3 ↗</a></div>
         <div>Patch management in the IACS environment</div>
       </summary>
       <div class="catalogue-detail">
@@ -1220,7 +1220,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-2-4">IEC 62443-2-4 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/67631" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-2-4">IEC 62443-2-4 ↗</a></div>
         <div>Exigences du programme de sécurité pour les fournisseurs de services IACS</div>
       </summary>
       <div class="catalogue-detail">
@@ -1238,7 +1238,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-3-2">IEC 62443-3-2 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/30727" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-3-2">IEC 62443-3-2 ↗</a></div>
         <div>Évaluation des risques pour la conception de systèmes</div>
       </summary>
       <div class="catalogue-detail">
@@ -1256,7 +1256,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-3-3">IEC 62443-3-3 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/7033" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-3-3">IEC 62443-3-3 ↗</a></div>
         <div>Exigences de sécurité système et niveaux de sécurité</div>
       </summary>
       <div class="catalogue-detail">
@@ -1274,7 +1274,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-4-1">IEC 62443-4-1 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/33615" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-4-1">IEC 62443-4-1 ↗</a></div>
         <div>Exigences du cycle de développement sécurisé des produits</div>
       </summary>
       <div class="catalogue-detail">
@@ -1292,7 +1292,7 @@ nav_order: 40
     </details>
     <details class="catalogue-entry">
       <summary class="catalogue-row">
-        <div><a class="catalogue-tool-link" href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-4-2">IEC 62443-4-2 ↗</a></div>
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/34421" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC 62443-4-2">IEC 62443-4-2 ↗</a></div>
         <div>Exigences techniques de sécurité pour les composants IACS</div>
       </summary>
       <div class="catalogue-detail">
@@ -1306,6 +1306,42 @@ nav_order: 40
         <p><strong>Langue :</strong> FR/EN</p>
         <p><strong>Références liées :</strong> 62443-3-3; 4-1</p>
         <p><strong>Notes CyberReperes :</strong> Complément de 3-3.</p>
+      </div>
+    </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/67462" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC TS 62443-6-1:2024">IEC TS 62443-6-1:2024 ↗</a></div>
+        <div>Sécurité des systèmes d&#x27;automatisation et de commande industrielles — Partie 6-1 : Méthodologie d&#x27;évaluation de la sécurité pour l&#x27;IEC 62443-2-4</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62443-6-1</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Évaluation de conformité / prestataires IACS</p>
+        <p><strong>Périmètre :</strong> Méthodologie d&#x27;évaluation des exigences de sécurité applicables aux prestataires de services IACS définies dans l&#x27;IEC 62443-2-4</p>
+        <p><strong>Contexte :</strong> Prestataires de services IACS</p>
+        <p><strong>Utilisation :</strong> Fournir une méthode d&#x27;évaluation reproductible et répétable des exigences de l&#x27;IEC 62443-2-4 ; applicable aux évaluations de première, deuxième ou tierce partie</p>
+        <p><strong>Version / état :</strong> 2024 (édition 1)</p>
+        <p><strong>Langue :</strong> EN</p>
+        <p><strong>Références liées :</strong> IEC 62443-2-4</p>
+        <p><strong>Notes CyberReperes :</strong> À utiliser pour structurer une évaluation ou une démarche d&#x27;appréciation de conformité d&#x27;un prestataire de services IACS. Ce document ne définit pas à lui seul un programme complet de certification.</p>
+      </div>
+    </details>
+    <details class="catalogue-entry">
+      <summary class="catalogue-row">
+        <div><a class="catalogue-tool-link" href="https://webstore.iec.ch/en/publication/67463" target="_blank" rel="noopener" aria-label="Ouvrir la source officielle de IEC TS 62443-6-2:2025">IEC TS 62443-6-2:2025 ↗</a></div>
+        <div>Sécurité des systèmes d&#x27;automatisation et de commande industrielles — Partie 6-2 : Méthodologie d&#x27;évaluation de la sécurité pour l&#x27;IEC 62443-4-2</div>
+      </summary>
+      <div class="catalogue-detail">
+        <p><strong>ID :</strong> IEC-62443-6-2</p>
+        <p><strong>Famille :</strong> IEC / ISA</p>
+        <p><strong>Domaine :</strong> Évaluation de conformité / composants IACS</p>
+        <p><strong>Périmètre :</strong> Méthodologie d&#x27;évaluation des exigences techniques de sécurité applicables aux composants IACS définies dans l&#x27;IEC 62443-4-2</p>
+        <p><strong>Contexte :</strong> Fournisseurs de produits / composants IACS, évaluateurs et organismes d&#x27;évaluation</p>
+        <p><strong>Utilisation :</strong> Fournir une méthode d&#x27;évaluation reproductible et répétable des composants IACS au regard des exigences de l&#x27;IEC 62443-4-2</p>
+        <p><strong>Version / état :</strong> 2025 (édition 1)</p>
+        <p><strong>Langue :</strong> EN</p>
+        <p><strong>Références liées :</strong> IEC 62443-4-2; IEC 62443-4-1</p>
+        <p><strong>Notes CyberReperes :</strong> À utiliser pour évaluer les capacités de sécurité d&#x27;un composant IACS. La méthodologie suppose un cycle de développement sécurisé conforme à l&#x27;IEC 62443-4-1 ; elle ne définit pas à elle seule un schéma complet de certification.</p>
       </div>
     </details>
   </div>
